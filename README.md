@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FisioLab Website
 
-## Getting Started
+Custom rebuild of fisiolab.eu - a bilingual (Greek/English) static website.
 
-First, run the development server:
+See [ARCHITECTURE.md](./ARCHITECTURE.md) for the full technical blueprint and
+[PROJECT_RULES.md](./PROJECT_RULES.md) for content and implementation rules.
+
+## Stack
+
+- Next.js 15 (App Router) + TypeScript
+- Tailwind CSS v4 + shadcn/ui
+- Static generation (no CMS in this phase; a headless CMS is a future data-source swap)
+
+## Requirements
+
+- Node.js 20+
+
+## Scripts
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev           # start the dev server
+npm run build         # production build
+npm run start         # serve the production build
+npm run lint          # ESLint
+npm run format        # Prettier (write)
+npm run format:check  # Prettier (check)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `app/` - routing and metadata only. Two locale trees: `(el)` (Greek, at the root) and `en` (English, under `/en`).
+- `src/components/` - `ui/` (shadcn primitives), `layout/` (shell), `blocks/` (reusable content blocks).
+- `src/content/` - typed content layer (`types/` interfaces + per-locale content). The single seam for a future CMS.
+- `src/lib/` - `i18n/`, `seo/`, `cta/`, `routing/`, and `utils.ts`.
+- `src/styles/globals.css` - Tailwind v4 + design tokens.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Status
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Milestone 1 (foundation/scaffold) complete.
+- Milestone 2 (content layer) complete.
+- Milestone 3 (content migration) complete: backup + brief copy populated in
+  `src/content/`; see `docs/CONTENT_CHANGELOG.md`. About us blocked (corrupted backup).
+- Milestone 4 (design system) complete: verified brand assets/tokens, responsive
+  layout shell, shadcn primitives, and core content blocks.

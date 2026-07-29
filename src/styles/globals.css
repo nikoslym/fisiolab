@@ -1,0 +1,148 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design tokens.
+ *
+ * Brand blue and aqua are sampled from the canonical dark FisioLab logo in the
+ * project backup. Typography remains a Greek-safe system stack until the exact
+ * brand font is confirmed.
+ */
+
+:root {
+  --radius: 0.75rem;
+
+  --brand-blue: #1f51a2;
+  --brand-aqua: #81cecc;
+  --brand-blue-deep: #173d7a;
+  --brand-aqua-soft: #eaf8f7;
+
+  --background: #ffffff;
+  --foreground: #172033;
+  --card: #ffffff;
+  --card-foreground: #172033;
+  --popover: #ffffff;
+  --popover-foreground: #172033;
+  --primary: var(--brand-blue);
+  --primary-foreground: #ffffff;
+  --secondary: var(--brand-aqua-soft);
+  --secondary-foreground: var(--brand-blue-deep);
+  --muted: #f4f7fb;
+  --muted-foreground: #5c6679;
+  --accent: var(--brand-aqua);
+  --accent-foreground: var(--brand-blue-deep);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: #dfe6ef;
+  --input: #dfe6ef;
+  --ring: var(--brand-aqua);
+}
+
+@theme inline {
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-aqua: var(--brand-aqua);
+  --color-brand-blue-deep: var(--brand-blue-deep);
+  --color-brand-aqua-soft: var(--brand-aqua-soft);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  /*
+   * TODO CONFIRM: brand fonts (Decision 9). Currently using a Greek-safe system
+   * font stack; replace with the confirmed self-hosted brand typography later.
+   */
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground min-w-80;
+    font-family:
+      Inter,
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-brand-blue-deep text-balance;
+  }
+  p {
+    @apply text-pretty;
+  }
+}
+
+@layer utilities {
+  .bg-brand-mesh {
+    background-color: var(--brand-blue-deep);
+    background-image:
+      radial-gradient(
+        circle at 12% 40%,
+        color-mix(in oklab, var(--brand-aqua) 22%, transparent) 0%,
+        transparent 42%
+      ),
+      radial-gradient(
+        circle at 88% 18%,
+        rgb(255 255 255 / 0.08) 0%,
+        transparent 36%
+      ),
+      linear-gradient(
+        135deg,
+        transparent 0%,
+        rgb(255 255 255 / 0.03) 50%,
+        transparent 100%
+      );
+  }
+
+  .bg-dot-grid {
+    background-image: radial-gradient(
+      color-mix(in oklab, var(--brand-blue) 14%, transparent) 1px,
+      transparent 1px
+    );
+    background-size: 18px 18px;
+  }
+
+  .reveal-up {
+    animation: fisiolab-reveal-up 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
+@keyframes fisiolab-reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
