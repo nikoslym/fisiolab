@@ -10,6 +10,7 @@ export interface RehabProgram {
   relatedSlugs?: string[];
   cta?: Cta;
   image?: ImageMeta;
+  images?: ImageMeta[];
   seo: Seo;
 }
 

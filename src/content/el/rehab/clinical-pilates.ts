@@ -7,11 +7,33 @@ export const rehabProgram: RehabProgram = {
     heading: "Clinical Pilates σε Mat, Reformer & Tower",
     subheading:
       "Εξειδικευμένη θεραπευτική άσκηση σε περιβάλλον φυσικοθεραπείας, με αξιολόγηση, εξατομίκευση και καθοδήγηση από φυσικοθεραπευτές.",
+    image: {
+      src: "/images/rehab/clinical-pilates-studio.webp",
+      alt: "Clinical Pilates studio με Reformer στο FisioLab",
+      width: 1800,
+      height: 1200,
+      focalPoint: { x: 0.45, y: 0.45 },
+    },
     cta: {
       label: "Κλείστε συνεδρία αξιολόγησης",
       href: "/epikoinonia",
     },
   },
+  images: [
+    {
+      src: "/images/rehab/clinical-pilates-studio.webp",
+      alt: "Clinical Pilates studio με Reformer στο FisioLab",
+      width: 1800,
+      height: 1200,
+    },
+    {
+      src: "/images/rehab/clinical-pilates-session.webp",
+      alt: "Συνεδρία Clinical Pilates σε Reformer",
+      width: 1600,
+      height: 1067,
+      focalPoint: { x: 0.5, y: 0.4 },
+    },
+  ],
   body: [
     {
       type: "paragraph",
