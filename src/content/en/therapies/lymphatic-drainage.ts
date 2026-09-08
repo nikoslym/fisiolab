@@ -203,7 +203,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/lemfiko.webp",
+      src: "/images/therapies/lymphatic-drainage.webp",
       alt: "Lymphatic Drainage at FisioLab",
     },
   ],

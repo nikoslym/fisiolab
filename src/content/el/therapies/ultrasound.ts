@@ -112,7 +112,7 @@ export const therapy: Therapy = {
     },
   ],
   images: [
-    { src: "/images/therapies/ultrasound.jpg", alt: "Θεραπευτικός Υπέρηχος" },
+    { src: "/images/therapies/ultrasound.webp", alt: "Θεραπευτικός Υπέρηχος" },
   ],
   seo: {
     title: "ΘΕΡΑΠΕΥΤΙΚΟΣ ΥΠΕΡΗΧΟΣ - FisioLab - Θεραπείες",

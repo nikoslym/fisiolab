@@ -336,7 +336,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/tecar.jpg",
+      src: "/images/therapies/tecar.webp",
       alt: "TECAR Therapy at FisioLab",
     },
   ],

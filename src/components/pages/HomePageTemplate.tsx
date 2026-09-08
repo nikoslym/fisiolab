@@ -80,7 +80,7 @@ export function HomePageTemplate({
             aria-hidden="true"
             className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed max-md:bg-scroll"
             style={{
-              backgroundImage: "url('/images/home/first-assessment-bg.png')",
+              backgroundImage: "url('/images/home/first-assessment-bg.webp')",
             }}
           />
           <div className="absolute inset-0 bg-slate-950/55" />

@@ -204,7 +204,7 @@ export const therapy: Therapy = {
     },
   ],
   images: [
-    { src: "/images/therapies/kinesio-tape.jpg", alt: "Kinesio Taping" },
+    { src: "/images/therapies/kinesio-tape.webp", alt: "Kinesio Taping" },
   ],
   seo: {
     title: "Kinesio Taping - FisioLab -",

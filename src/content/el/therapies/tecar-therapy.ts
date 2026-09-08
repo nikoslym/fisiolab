@@ -249,7 +249,7 @@ export const therapy: Therapy = {
       text: "Η χρήση του Winback στη Φυσικοθεραπεία εγγυάται ταχύτατα αποτελέσματα σε θεραπείες TECAR, βελτιώνοντας την ποιότητα ζωής σας.",
     },
   ],
-  images: [{ src: "/images/therapies/tecar.jpg", alt: "Θεραπεία TECAR" }],
+  images: [{ src: "/images/therapies/tecar.webp", alt: "Θεραπεία TECAR" }],
   seo: {
     title: "Θεραπεία TECAR - FisioLab - ΣΠΑΝΟΥΔΑΚΗΣ",
     description:

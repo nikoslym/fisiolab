@@ -7,6 +7,13 @@ import type { InitialAssessmentContent } from "@/content/types";
 export const initialAssessmentContent: InitialAssessmentContent = {
   hero: {
     heading: "Πρώτη Αξιολόγηση",
+    image: {
+      src: "/images/home/initial-assessment.webp",
+      alt: "Κλινική αξιολόγηση στο FisioLab",
+      width: 1600,
+      height: 1062,
+      focalPoint: { x: 0.45, y: 0.4 },
+    },
     cta: {
       label: "Κλείστε αξιολόγηση",
       href: "/epikoinonia",

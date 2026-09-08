@@ -75,7 +75,7 @@ export const therapy: Therapy = {
     { type: "heading", level: 2, text: "ΔΙΑΘΕΡΜΙΕΣ" },
     { type: "paragraph", text: "διαθερμία πονοι αρθριτιδα" },
   ],
-  images: [{ src: "/images/therapies/diathermy.jpg", alt: "Διαθερμίες" }],
+  images: [{ src: "/images/therapies/diathermy.webp", alt: "Διαθερμίες" }],
   seo: {
     title: "FisioLab - ΔΙΑΘΕΡΜΙΕΣ",
     description:

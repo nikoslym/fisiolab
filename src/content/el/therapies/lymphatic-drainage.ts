@@ -170,7 +170,7 @@ export const therapy: Therapy = {
     },
   ],
   images: [
-    { src: "/images/therapies/lemfiko.webp", alt: "Λεμφική Παροχέτευση" },
+    { src: "/images/therapies/lymphatic-drainage.webp", alt: "Λεμφική Παροχέτευση" },
   ],
   seo: {
     title: "ΛΕΜΦΙΚΗ ΠΑΡΟΧΕΤΕΥΣΗ - FisioLab - Θεραπείες",

@@ -143,7 +143,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/electrotherapy.png",
+      src: "/images/therapies/electrotherapy.webp",
       alt: "Electrotherapy at FisioLab",
     },
   ],

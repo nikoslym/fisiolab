@@ -124,7 +124,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/diathermy.jpg",
+      src: "/images/therapies/diathermy.webp",
       alt: "Diathermy at FisioLab",
     },
   ],

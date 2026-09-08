@@ -163,7 +163,7 @@ export const therapy: Therapy = {
       text: "Εμπιστευθείτε τον Spanoudakis για εξειδικευμένη θεραπεία, τόσο για φυσική αποκατάσταση όσο και για αισθητική αποκατάσταση. Βελτιώστε την ποιότητα ζωής σας με τη σύγχρονη τεχνολογία της vacuum therapy.",
     },
   ],
-  images: [{ src: "/images/therapies/vacuum.jpg", alt: "Θεραπεία Vacuum" }],
+  images: [{ src: "/images/therapies/vacuum.webp", alt: "Θεραπεία Vacuum" }],
   seo: {
     title: "ΘΕΡΑΠΕΙΑ VACUUM - FisioLab - Φυσικοθεραπεία",
     description:

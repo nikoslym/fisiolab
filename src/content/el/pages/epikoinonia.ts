@@ -8,6 +8,13 @@ import type { ContactContent } from "@/content/types";
 export const contactContent: ContactContent = {
   hero: {
     heading: "Επικοινωνία / Ραντεβού",
+    image: {
+      src: "/images/contact/storefront.webp",
+      alt: "FisioLab Physiotherapy Center στο Ρέθυμνο",
+      width: 1800,
+      height: 1793,
+      focalPoint: { x: 0.5, y: 0.45 },
+    },
     cta: {
       label: "Κλείστε αξιολόγηση",
       href: "/epikoinonia",

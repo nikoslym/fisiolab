@@ -177,7 +177,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/percusion-waves.jpg",
+      src: "/images/therapies/shockwave.webp",
       alt: "Shockwave therapy at FisioLab",
     },
   ],

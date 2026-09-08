@@ -150,7 +150,7 @@ export const therapy: Therapy = {
       text: "Στο FisioLab η θεραπεία με laser υψηλής ισχύος εφαρμόζεται μετά από αξιολόγηση, με στόχο τη μείωση του πόνου, τη διαχείριση της φλεγμονής και την υποστήριξη της επούλωσης των ιστών.",
     },
   ],
-  images: [{ src: "/images/therapies/laser.jpeg", alt: "Laser Υψηλής Ισχύος" }],
+  images: [{ src: "/images/therapies/laser.webp", alt: "Laser Υψηλής Ισχύος" }],
   seo: {
     title: "LASER ΥΨΗΛΗΣ ΙΣΧΥΟΣ - FisioLab - Ρέθυμνο",
     description:

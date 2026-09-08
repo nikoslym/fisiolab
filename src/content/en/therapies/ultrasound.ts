@@ -118,7 +118,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/ultrasound.jpg",
+      src: "/images/therapies/ultrasound.webp",
       alt: "Therapeutic Ultrasound at FisioLab",
     },
   ],

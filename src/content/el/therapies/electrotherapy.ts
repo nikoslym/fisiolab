@@ -136,7 +136,7 @@ export const therapy: Therapy = {
     },
   ],
   images: [
-    { src: "/images/therapies/electrotherapy.png", alt: "Ηλεκτροθεραπεία" },
+    { src: "/images/therapies/electrotherapy.webp", alt: "Ηλεκτροθεραπεία" },
   ],
   seo: {
     title: "ΗΛΕΚΤΡΟΘΕΡΑΠΕΙΑ - FisioLab",

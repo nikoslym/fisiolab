@@ -211,7 +211,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/kinesio-tape.jpg",
+      src: "/images/therapies/kinesio-tape.webp",
       alt: "Kinesio Taping at FisioLab",
     },
   ],

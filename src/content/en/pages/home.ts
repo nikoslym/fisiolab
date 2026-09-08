@@ -14,12 +14,12 @@ export const homeContent: HomeContent = {
     subheading:
       "Evidence-informed treatment, advanced technology and personalized rehabilitation in a private, modern and patient-focused environment.",
     image: {
-      src: "/images/home/physio-session-hero.png",
+      src: "/images/home/physio-session-hero.webp",
       alt: "Physiotherapy treatment session at FisioLab",
-      width: 1024,
-      height: 682,
+      width: 2000,
+      height: 1201,
       coverScale: 1.05,
-      focalPoint: { x: 0.58, y: 0.25 },
+      focalPoint: { x: 0.55, y: 0.35 },
     },
     cta: {
       label: "Book an Assessment",
@@ -81,10 +81,11 @@ export const homeContent: HomeContent = {
       },
     ],
     image: {
-      src: "/images/home/first-appointment.png",
+      src: "/images/home/first-appointment.webp",
       alt: "Clinical assessment and required certificates",
-      width: 1024,
-      height: 682,
+      width: 1067,
+      height: 1600,
+      focalPoint: { x: 0.5, y: 0.4 },
     },
   },
   reviewsHeading: "Patients who trusted us",

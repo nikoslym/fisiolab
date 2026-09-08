@@ -191,7 +191,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/laser.jpeg",
+      src: "/images/therapies/laser.webp",
       alt: "High Power Laser therapy at FisioLab",
     },
   ],

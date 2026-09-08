@@ -168,7 +168,7 @@ export const therapy: Therapy = {
     },
   ],
   images: [
-    { src: "/images/therapies/percusion-waves.jpg", alt: "Κρουστικά Κύματα" },
+    { src: "/images/therapies/shockwave.webp", alt: "Κρουστικά Κύματα" },
   ],
   seo: {
     title: "Κρουστικά Κύματα - FisioLab - RETHYMNO",

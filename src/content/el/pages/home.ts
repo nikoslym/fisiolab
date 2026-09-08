@@ -14,12 +14,12 @@ export const homeContent: HomeContent = {
     subheading:
       "Αξιολόγηση, προηγμένη τεχνολογία και εξατομικευμένη θεραπευτική άσκηση σε έναν χώρο που σέβεται την ιδιωτικότητα, τον χρόνο και την ποιότητα ζωής σας.",
     image: {
-      src: "/images/home/physio-session-hero.png",
+      src: "/images/home/physio-session-hero.webp",
       alt: "Συνεδρία φυσικοθεραπείας στο FisioLab",
-      width: 1024,
-      height: 682,
+      width: 2000,
+      height: 1201,
       coverScale: 1.05,
-      focalPoint: { x: 0.58, y: 0.25 },
+      focalPoint: { x: 0.55, y: 0.35 },
     },
     cta: {
       label: "Κλείστε αξιολόγηση",
@@ -78,10 +78,11 @@ export const homeContent: HomeContent = {
       },
     ],
     image: {
-      src: "/images/home/first-appointment.png",
+      src: "/images/home/first-appointment.webp",
       alt: "Κλινική αξιολόγηση και απαραίτητα πιστοποιητικά",
-      width: 1024,
-      height: 682,
+      width: 1067,
+      height: 1600,
+      focalPoint: { x: 0.5, y: 0.4 },
     },
   },
   // Brief 1 §6

@@ -169,7 +169,7 @@ export const therapy: Therapy = {
   ],
   images: [
     {
-      src: "/images/therapies/vacuum.jpg",
+      src: "/images/therapies/vacuum.webp",
       alt: "Vacuum Therapy at FisioLab",
     },
   ],
