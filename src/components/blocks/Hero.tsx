@@ -140,7 +140,7 @@ export function Hero({
               sizes={
                 isPortraitImage
                   ? "(min-width: 1024px) 280px, 260px"
-                  : "(min-width: 1280px) 560px, (min-width: 1024px) 45vw, 100vw"
+                  : "(min-width: 1280px) 720px, (min-width: 1024px) 50vw, 100vw"
               }
               priority
             />

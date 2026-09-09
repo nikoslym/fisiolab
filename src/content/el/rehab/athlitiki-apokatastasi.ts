@@ -8,8 +8,8 @@ export const rehabProgram: RehabProgram = {
     image: {
       src: "/images/rehab/athlitiki-apokatastasi.webp",
       alt: "Αθλητική αποκατάσταση στο FisioLab",
-      width: 2133,
-      height: 3200,
+      width: 3200,
+      height: 4800,
       focalPoint: { x: 0.5, y: 0.4 },
     },
     cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },

@@ -8,8 +8,8 @@ export const rehabProgram: RehabProgram = {
     image: {
       src: "/images/rehab/apokatastasi-gonatos-omou-ischiou.webp",
       alt: "Αποκατάσταση γόνατος, ώμου και ισχίου στο FisioLab",
-      width: 3200,
-      height: 1940,
+      width: 4800,
+      height: 2910,
       focalPoint: { x: 0.5, y: 0.4 },
     },
     cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },

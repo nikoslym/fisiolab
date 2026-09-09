@@ -10,8 +10,8 @@ export const rehabProgram: RehabProgram = {
     image: {
       src: "/images/rehab/clinical-pilates-hero.webp",
       alt: "Clinical Pilates studio στο FisioLab",
-      width: 3200,
-      height: 1850,
+      width: 4800,
+      height: 2775,
       focalPoint: { x: 0.45, y: 0.45 },
     },
     cta: {
@@ -23,27 +23,27 @@ export const rehabProgram: RehabProgram = {
     {
       src: "/images/rehab/clinical-pilates-01.webp",
       alt: "Χώρος Therapeutic Exercise & Clinical Pilates",
-      width: 3200,
-      height: 1521,
+      width: 4800,
+      height: 2281,
     },
     {
       src: "/images/rehab/clinical-pilates-02.webp",
       alt: "Reformer στο Clinical Pilates studio",
-      width: 2133,
-      height: 3200,
+      width: 3200,
+      height: 4800,
     },
     {
       src: "/images/rehab/clinical-pilates-03.webp",
       alt: "Συνεδρία Clinical Pilates σε Reformer",
-      width: 3200,
-      height: 2133,
+      width: 4800,
+      height: 3200,
       focalPoint: { x: 0.5, y: 0.4 },
     },
     {
       src: "/images/rehab/clinical-pilates-04.webp",
       alt: "Clinical Pilates studio με Reformer",
-      width: 3200,
-      height: 2133,
+      width: 4800,
+      height: 3200,
     },
   ],
   body: [
