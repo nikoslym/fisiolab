@@ -14,12 +14,15 @@ export function ImageGallery({
   className,
   heading,
   lightbox = false,
+  singleMaxClassName = "max-w-4xl",
 }: {
   images: ImageMeta[];
   className?: string;
   heading?: string;
   /** When true, clicking a thumbnail opens a full-size lightbox. */
   lightbox?: boolean;
+  /** Max-width utility for a single-image gallery (default max-w-4xl). */
+  singleMaxClassName?: string;
 }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const count = images.length;
@@ -66,7 +69,7 @@ export function ImageGallery({
         <div
           className={cn(
             "grid gap-3 sm:gap-4",
-            count === 1 && "mx-auto max-w-4xl",
+            count === 1 && cn("mx-auto", singleMaxClassName),
             count === 2 && "sm:grid-cols-2",
             count === 3 && "sm:grid-cols-3",
             count >= 4 && "sm:grid-cols-2 lg:grid-cols-4",

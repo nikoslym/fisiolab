@@ -19,6 +19,7 @@ export function TherapiesPageTemplate({
         <ImageGallery
           images={content.gallery}
           className="pt-2 pb-8 sm:pt-3 sm:pb-10 lg:pb-12"
+          singleMaxClassName="max-w-2xl"
         />
       )}
       <Section className="bg-dot-grid pt-8 sm:pt-10 lg:pt-12">
