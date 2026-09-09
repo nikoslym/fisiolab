@@ -53,7 +53,7 @@ export function HomePageTemplate({
       </Section>
 
       {content.gallery && content.gallery.length > 0 && (
-        <ImageGallery images={content.gallery} />
+        <ImageGallery images={content.gallery} lightbox />
       )}
 
       <Section className="bg-muted">

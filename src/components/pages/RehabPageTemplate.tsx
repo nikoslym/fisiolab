@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Container, Section } from "@/components/layout/Container";
 import { FAQ } from "@/components/blocks/FAQ";
 import { Hero } from "@/components/blocks/Hero";
-import { ImageGallery } from "@/components/blocks/ImageGallery";
+import { ImageSlideshow } from "@/components/blocks/ImageSlideshow";
 import { RichTextRenderer } from "@/components/blocks/RichTextRenderer";
 
 export function RehabPageTemplate({
@@ -41,7 +41,7 @@ export function RehabPageTemplate({
       </Section>
 
       {remainingImages && remainingImages.length > 0 && (
-        <ImageGallery images={remainingImages} />
+        <ImageSlideshow images={remainingImages} />
       )}
 
       {content.cta && (
