@@ -32,7 +32,7 @@ export function RehabPageTemplate({
   return (
     <>
       <Hero content={hero} locale={locale} />
-      <Section className="bg-dot-grid">
+      <Section className="bg-dot-grid pt-8 sm:pt-10 lg:pt-12">
         <Container>
           <div className="bg-card mx-auto max-w-4xl rounded-3xl border p-6 shadow-sm sm:p-10 lg:p-12">
             <RichTextRenderer content={content.body} />
@@ -41,7 +41,10 @@ export function RehabPageTemplate({
       </Section>
 
       {remainingImages && remainingImages.length > 0 && (
-        <ImageSlideshow images={remainingImages} />
+        <ImageSlideshow
+          images={remainingImages}
+          className="pt-8 sm:pt-10 lg:pt-12"
+        />
       )}
 
       {content.cta && (

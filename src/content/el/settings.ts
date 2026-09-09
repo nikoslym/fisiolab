@@ -22,7 +22,7 @@ export const siteSettings: SiteSettings = {
     { days: "Παρασκευή", hours: "09.00-13.00" },
   ],
   eopyyAffiliated: true,
-  googleReviewsCount: 109,
+  googleReviewsCount: 130,
   primaryCta: {
     label: "Κλείστε αξιολόγηση",
     href: "/epikoinonia",
@@ -49,7 +49,7 @@ export const footer: Footer = {
 /** Brief 1 §4 trust bar (hardcoded value per Decision 7). */
 export const trustBar: TrustBar = {
   items: [
-    "109+ Google Reviews",
+    "130+ Google Reviews",
     "Επιστημονική αξιολόγηση",
     "Προηγμένος εξοπλισμός",
     "Στο κέντρο του Ρεθύμνου",
@@ -66,8 +66,8 @@ export const reviewSummary: ReviewSummary = {
     "Επαγγελματισμός, συνέπεια και ανθρώπινη επικοινωνία",
   ],
   externalLink: {
-    // Label from backup home; destination URL not present in project files.
+    // Label from backup home; destination is the Google Business listing.
     label: "Διαβάστε περισσότερα",
-    href: "",
+    href: "https://www.google.com/maps/search/?api=1&query=FisioLab%20%CE%A7%CE%B1%CF%81%CE%B9%CE%BA%CE%BB%CE%B5%CE%AF%CE%B1%CF%82%20%CE%94%CE%B1%CF%83%CE%BA%CE%B1%CE%BB%CE%AC%CE%BA%CE%B7%205%20%CE%A1%CE%AD%CE%B8%CF%85%CE%BC%CE%BD%CE%BF",
   },
 };

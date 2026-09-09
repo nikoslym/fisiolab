@@ -7,10 +7,10 @@ import type { AboutContent } from "@/content/types";
  */
 export const aboutContent: AboutContent = {
   hero: {
-    heading: "Σχετικά με εμάς – FisioLab",
+    heading: "Σχετικά με εμάς",
     image: {
       src: "/images/about/about-hero.webp",
-      alt: "Σχετικά με εμάς – FisioLab",
+      alt: "Σχετικά με εμάς",
       width: 1333,
       height: 2000,
       focalPoint: { x: 0.5, y: 0.4 },

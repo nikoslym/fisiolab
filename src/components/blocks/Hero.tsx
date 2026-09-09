@@ -22,11 +22,20 @@ export function Hero({
 }) {
   const hasImage = Boolean(content.image);
   const isBackground = mode === "background" && hasImage;
+  const isPortraitImage = Boolean(
+    content.image?.width &&
+      content.image?.height &&
+      content.image.height > content.image.width,
+  );
 
   return (
     <Section
       className={cn(
         "overflow-hidden",
+        // Tighter page-hero spacing so stacked sections don't double up.
+        hasImage
+          ? "py-10 sm:py-12 lg:py-14"
+          : "py-8 sm:py-10 lg:py-12",
         isBackground
           ? "relative"
           : "from-brand-aqua-soft/80 bg-linear-to-br from-0% via-white to-white",
@@ -56,7 +65,7 @@ export function Hero({
       <Container
         className={cn(
           "relative z-10",
-          "grid items-center gap-12",
+          "grid items-center gap-8 lg:gap-10",
           hasImage && !isBackground && "lg:grid-cols-[1.05fr_0.95fr]",
         )}
       >
@@ -118,7 +127,14 @@ export function Hero({
         </div>
 
         {content.image && !isBackground && (
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
+          <div
+            className={cn(
+              "relative mx-auto w-full overflow-hidden rounded-2xl shadow-xl",
+              isPortraitImage
+                ? "aspect-[2/3] max-w-md lg:max-w-none"
+                : "aspect-[4/3]",
+            )}
+          >
             <ContentImage
               image={content.image}
               sizes="(min-width: 1024px) 45vw, 100vw"

@@ -24,7 +24,7 @@ export const siteSettings: SiteSettings = {
     { days: "Friday", hours: "09.00-13.00" },
   ],
   eopyyAffiliated: true,
-  googleReviewsCount: 109,
+  googleReviewsCount: 130,
   primaryCta: {
     label: "Book an Assessment",
     href: "/contact",
@@ -51,7 +51,7 @@ export const footer: Footer = {
  * Full Greek trust bar is not translated at launch (Decision 6).
  */
 export const trustBar: TrustBar = {
-  items: ["109+ Google Reviews", "Contracted with EOPYY"],
+  items: ["130+ Google Reviews", "Contracted with EOPYY"],
 };
 
 /** EN review bullets not provided in briefs — empty until approved copy. */
@@ -59,6 +59,6 @@ export const reviewSummary: ReviewSummary = {
   bullets: [],
   externalLink: {
     label: "Read more",
-    href: "",
+    href: "https://www.google.com/maps/search/?api=1&query=FisioLab%20%CE%A7%CE%B1%CF%81%CE%B9%CE%BA%CE%BB%CE%B5%CE%AF%CE%B1%CF%82%20%CE%94%CE%B1%CF%83%CE%BA%CE%B1%CE%BB%CE%AC%CE%BA%CE%B7%205%20%CE%A1%CE%AD%CE%B8%CF%85%CE%BC%CE%BD%CE%BF",
   },
 };

@@ -16,21 +16,13 @@ export function TherapiesPageTemplate({
     <>
       {content.hero && <Hero content={content.hero} locale={locale} />}
       {content.gallery && content.gallery.length > 0 && (
-        <ImageGallery images={content.gallery} />
+        <ImageGallery
+          images={content.gallery}
+          className="pt-2 pb-8 sm:pt-3 sm:pb-10 lg:pb-12"
+        />
       )}
-      <Section className="bg-dot-grid">
+      <Section className="bg-dot-grid pt-8 sm:pt-10 lg:pt-12">
         <Container>
-          <div className="mb-10 flex items-end justify-between gap-6">
-            <div>
-              <div
-                aria-hidden="true"
-                className="bg-brand-aqua mb-4 h-1.5 w-12 rounded-full"
-              />
-              <h2 className="text-3xl font-bold sm:text-4xl">
-                {content.therapiesHeading}
-              </h2>
-            </div>
-          </div>
           <ServiceGrid items={content.therapies} locale={locale} />
         </Container>
       </Section>

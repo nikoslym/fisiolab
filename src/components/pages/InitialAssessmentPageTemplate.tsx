@@ -20,7 +20,7 @@ export function InitialAssessmentPageTemplate({
   return (
     <>
       {content.hero && <Hero content={content.hero} locale={locale} />}
-      <Section className="bg-dot-grid">
+      <Section className="bg-dot-grid pt-8 sm:pt-10 lg:pt-12">
         <Container>
           {content.items && content.items.length > 0 ? (
             <FirstAssessmentList

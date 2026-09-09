@@ -16,7 +16,7 @@ export function ContactPageTemplate({
   return (
     <>
       {content.hero && <Hero content={content.hero} locale={locale} />}
-      <Section className="bg-dot-grid">
+      <Section className="bg-dot-grid pt-8 sm:pt-10 lg:pt-12">
         <Container>
           <ContactInfo locale={locale} settings={settings} />
         </Container>

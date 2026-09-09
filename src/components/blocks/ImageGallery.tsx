@@ -50,7 +50,7 @@ export function ImageGallery({
   if (!count) return null;
 
   return (
-    <Section className={cn("bg-background", className)}>
+    <Section className={cn("bg-background py-8 sm:py-10 lg:py-12", className)}>
       <Container>
         {heading && (
           <div className="mb-8 text-center sm:mb-10">

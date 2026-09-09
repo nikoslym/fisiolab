@@ -14,7 +14,7 @@ export function AboutPageTemplate({
   return (
     <>
       {content.hero && <Hero content={content.hero} locale={locale} />}
-      <Section className="bg-dot-grid">
+      <Section className="bg-dot-grid pt-8 sm:pt-10 lg:pt-12">
         <Container>
           <div className="bg-card mx-auto max-w-4xl rounded-3xl border p-6 shadow-sm sm:p-10 lg:p-12">
             <RichTextRenderer content={content.body} />
