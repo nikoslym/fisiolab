@@ -131,13 +131,13 @@ export function Hero({
             className={cn(
               "relative mx-auto w-full overflow-hidden rounded-2xl shadow-xl",
               isPortraitImage
-                ? "aspect-[2/3] max-w-md lg:max-w-none"
+                ? "aspect-[2/3] max-w-[220px] sm:max-w-[260px] lg:max-w-[280px]"
                 : "aspect-[4/3]",
             )}
           >
             <ContentImage
               image={content.image}
-              sizes="(min-width: 1024px) 45vw, 100vw"
+              sizes="(min-width: 1024px) 280px, 260px"
               priority
             />
           </div>

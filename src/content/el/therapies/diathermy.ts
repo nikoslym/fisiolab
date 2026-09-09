@@ -61,19 +61,6 @@ export const therapy: Therapy = {
     { type: "paragraph", text: "3 φορές την εβδομάδα" },
     { type: "heading", level: 3, text: "ΑΠΟΤΕΛΕΣΜΑΤΑ" },
     { type: "paragraph", text: "Από τη 2η συνεδρία" },
-    { type: "heading", level: 2, text: "ΔΙΑΘΕΡΜΙΕΣ" },
-    {
-      type: "paragraph",
-      text: "Κατάλληλη για αρθριτιδα, οστεοαρθριτιδα, μυαλγια…",
-    },
-    { type: "heading", level: 2, text: "ΔΙΑΘΕΡΜΙΕΣ" },
-    { type: "paragraph", text: "διαθερμία πονοι αρθριτιδα" },
-    {
-      type: "paragraph",
-      text: "Κατάλληλη για αρθριτιδα, οστεοαρθριτιδα, μυαλγια…",
-    },
-    { type: "heading", level: 2, text: "ΔΙΑΘΕΡΜΙΕΣ" },
-    { type: "paragraph", text: "διαθερμία πονοι αρθριτιδα" },
   ],
   images: [{ src: "/images/therapies/diathermy.webp", alt: "Διαθερμίες" }],
   seo: {

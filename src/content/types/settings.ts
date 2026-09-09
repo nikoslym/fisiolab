@@ -13,6 +13,8 @@ export interface SiteSettings {
 
 export interface ContactInfo {
   address: string;
+  /** Google Business / Maps place URL for the clinic address. */
+  mapsUrl?: string;
   phone: string;
   email: string;
 }

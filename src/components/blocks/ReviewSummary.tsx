@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Star } from "lucide-react";
 import type { ReviewSummary as ReviewSummaryContent } from "@/content/types";
 import { Button } from "@/components/ui/button";
@@ -69,10 +68,14 @@ export function ReviewSummary({
 
       {content.externalLink?.href && (
         <div className="mt-10 text-center">
-          <Button asChild variant="outline" size="lg">
-            <Link href={content.externalLink.href}>
+          <Button asChild size="lg">
+            <a
+              href={content.externalLink.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {content.externalLink.label}
-            </Link>
+            </a>
           </Button>
         </div>
       )}

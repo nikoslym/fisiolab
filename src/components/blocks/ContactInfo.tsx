@@ -18,7 +18,18 @@ export function ContactInfo({
       title: uiCopy[locale].findUs,
       body: (
         <p className="text-muted-foreground mt-3 leading-7">
-          {settings.contact.address}
+          {settings.contact.mapsUrl ? (
+            <a
+              href={settings.contact.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary rounded-sm underline-offset-4 hover:underline focus-visible:ring-2 focus-visible:outline-none"
+            >
+              {settings.contact.address}
+            </a>
+          ) : (
+            settings.contact.address
+          )}
         </p>
       ),
     },

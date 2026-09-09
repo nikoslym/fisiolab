@@ -57,7 +57,18 @@ export function Footer({
             </h2>
             <p className="mt-3 flex gap-3 text-sm leading-6 text-white/80">
               <MapPin className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
-              {settings.contact.address}
+              {settings.contact.mapsUrl ? (
+                <a
+                  href={settings.contact.mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus-visible:ring-brand-aqua rounded-sm transition-colors hover:text-white focus-visible:ring-2 focus-visible:outline-none"
+                >
+                  {settings.contact.address}
+                </a>
+              ) : (
+                settings.contact.address
+              )}
             </p>
           </div>
           <div>

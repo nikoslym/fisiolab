@@ -16,6 +16,7 @@ export const siteSettings: SiteSettings = {
   siteName: "FisioLab",
   contact: {
     address: "Χ. Δασκαλάκη 5, Ρέθυμνο, 74132",
+    mapsUrl: "https://share.google/hwpbuA1C3mie7B1i1",
     phone: "+302831025854",
     email: "spanoudakis@fisiolab.eu",
   },
@@ -58,7 +59,7 @@ export const trustBar: TrustBar = {
 export const reviewSummary: ReviewSummary = {
   bullets: [],
   externalLink: {
-    label: "Read more",
-    href: "https://www.google.com/maps/search/?api=1&query=FisioLab%20%CE%A7%CE%B1%CF%81%CE%B9%CE%BA%CE%BB%CE%B5%CE%AF%CE%B1%CF%82%20%CE%94%CE%B1%CF%83%CE%BA%CE%B1%CE%BB%CE%AC%CE%BA%CE%B7%205%20%CE%A1%CE%AD%CE%B8%CF%85%CE%BC%CE%BD%CE%BF",
+    label: "See reviews on Google",
+    href: "https://share.google/hwpbuA1C3mie7B1i1",
   },
 };
