@@ -16,8 +16,8 @@ export const homeContent: HomeContent = {
     image: {
       src: "/images/home/physio-session-hero.webp",
       alt: "Συνεδρία φυσικοθεραπείας στο FisioLab",
-      width: 2000,
-      height: 1201,
+      width: 2400,
+      height: 1570,
       coverScale: 1.05,
       focalPoint: { x: 0.55, y: 0.35 },
     },
@@ -53,6 +53,33 @@ export const homeContent: HomeContent = {
     label: "Δείτε τις θεραπείες",
     href: "/therapeies",
   },
+
+  gallery: [
+    {
+      src: "/images/home/gallery-01.webp",
+      alt: "Χώρος υποδοχής FisioLab",
+      width: 1384,
+      height: 2000,
+    },
+    {
+      src: "/images/home/gallery-02.webp",
+      alt: "Χώρος άσκησης και αποκατάστασης",
+      width: 2000,
+      height: 1255,
+    },
+    {
+      src: "/images/home/gallery-03.webp",
+      alt: "Θεραπεία TECAR στο FisioLab",
+      width: 2000,
+      height: 1333,
+    },
+    {
+      src: "/images/home/gallery-04.webp",
+      alt: "Αίθουσα αναμονής FisioLab",
+      width: 2000,
+      height: 1333,
+    },
+  ],
   trustBar,
   servicesHeading: "Οι υπηρεσίες μας",
   services: serviceCards,
@@ -80,8 +107,8 @@ export const homeContent: HomeContent = {
     image: {
       src: "/images/home/first-appointment.webp",
       alt: "Κλινική αξιολόγηση και απαραίτητα πιστοποιητικά",
-      width: 1067,
-      height: 1600,
+      width: 1333,
+      height: 2000,
       focalPoint: { x: 0.5, y: 0.4 },
     },
   },

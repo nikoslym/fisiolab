@@ -11,9 +11,9 @@ export const aboutContent: AboutContent = {
     image: {
       src: "/images/about/about-hero.webp",
       alt: "Σχετικά με εμάς – FisioLab",
-      width: 2000,
-      height: 1333,
-      focalPoint: { x: 0.45, y: 0.45 },
+      width: 1333,
+      height: 2000,
+      focalPoint: { x: 0.5, y: 0.4 },
     },
     cta: { label: "Book an Assessment", href: "/contact" },
   },

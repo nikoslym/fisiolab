@@ -8,6 +8,14 @@ export const therapiesPageContent: TherapiesPageContent = {
   hero: {
     heading: "Therapies",
   },
+  gallery: [
+    {
+      src: "/images/therapies/archive-gallery-01.webp",
+      alt: "Physiotherapy session at FisioLab",
+      width: 2000,
+      height: 1201,
+    },
+  ],
   therapiesHeading: "Therapies",
   therapies: serviceCards,
   rehabPrograms: [],

@@ -31,6 +31,14 @@ export const therapiesPageContent: TherapiesPageContent = {
   hero: {
     heading: "Θεραπείες",
   },
+  gallery: [
+    {
+      src: "/images/therapies/archive-gallery-01.webp",
+      alt: "Συνεδρία φυσικοθεραπείας στο FisioLab",
+      width: 2000,
+      height: 1201,
+    },
+  ],
   therapiesHeading: "Θεραπείες",
   therapies,
   rehabProgramsHeading: "Ολοκληρωμένη Κλινική Αποκατάσταση",

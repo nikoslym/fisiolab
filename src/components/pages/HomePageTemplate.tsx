@@ -9,6 +9,7 @@ import { EditorialIntro } from "@/components/blocks/EditorialIntro";
 import { FirstAppointmentSection } from "@/components/blocks/FirstAppointmentSection";
 import { FirstAssessmentList } from "@/components/blocks/FirstAssessmentList";
 import { Hero } from "@/components/blocks/Hero";
+import { ImageGallery } from "@/components/blocks/ImageGallery";
 import { ReviewSummary } from "@/components/blocks/ReviewSummary";
 import { ServiceGrid } from "@/components/blocks/ServiceGrid";
 import { TrustBar } from "@/components/blocks/TrustBar";
@@ -50,6 +51,10 @@ export function HomePageTemplate({
           )}
         </Container>
       </Section>
+
+      {content.gallery && content.gallery.length > 0 && (
+        <ImageGallery images={content.gallery} />
+      )}
 
       <Section className="bg-muted">
         <Container>

@@ -10,8 +10,8 @@ export const initialAssessmentContent: InitialAssessmentContent = {
     image: {
       src: "/images/home/initial-assessment.webp",
       alt: "Κλινική αξιολόγηση στο FisioLab",
-      width: 1600,
-      height: 1062,
+      width: 2000,
+      height: 1327,
       focalPoint: { x: 0.45, y: 0.4 },
     },
     cta: {

@@ -8,10 +8,10 @@ export const rehabProgram: RehabProgram = {
     subheading:
       "Εξειδικευμένη θεραπευτική άσκηση σε περιβάλλον φυσικοθεραπείας, με αξιολόγηση, εξατομίκευση και καθοδήγηση από φυσικοθεραπευτές.",
     image: {
-      src: "/images/rehab/clinical-pilates-studio.webp",
-      alt: "Clinical Pilates studio με Reformer στο FisioLab",
-      width: 1800,
-      height: 1200,
+      src: "/images/rehab/clinical-pilates-hero.webp",
+      alt: "Clinical Pilates studio στο FisioLab",
+      width: 2000,
+      height: 1156,
       focalPoint: { x: 0.45, y: 0.45 },
     },
     cta: {
@@ -21,17 +21,29 @@ export const rehabProgram: RehabProgram = {
   },
   images: [
     {
-      src: "/images/rehab/clinical-pilates-studio.webp",
-      alt: "Clinical Pilates studio με Reformer στο FisioLab",
-      width: 1800,
-      height: 1200,
+      src: "/images/rehab/clinical-pilates-01.webp",
+      alt: "Χώρος Therapeutic Exercise & Clinical Pilates",
+      width: 2000,
+      height: 950,
     },
     {
-      src: "/images/rehab/clinical-pilates-session.webp",
+      src: "/images/rehab/clinical-pilates-02.webp",
+      alt: "Reformer στο Clinical Pilates studio",
+      width: 1333,
+      height: 2000,
+    },
+    {
+      src: "/images/rehab/clinical-pilates-03.webp",
       alt: "Συνεδρία Clinical Pilates σε Reformer",
-      width: 1600,
-      height: 1067,
+      width: 2000,
+      height: 1333,
       focalPoint: { x: 0.5, y: 0.4 },
+    },
+    {
+      src: "/images/rehab/clinical-pilates-04.webp",
+      alt: "Clinical Pilates studio με Reformer",
+      width: 2000,
+      height: 1333,
     },
   ],
   body: [

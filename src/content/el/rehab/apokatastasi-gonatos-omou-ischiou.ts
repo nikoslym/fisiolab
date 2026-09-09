@@ -5,6 +5,13 @@ export const rehabProgram: RehabProgram = {
   title: "Αποκατάσταση Γόνατος, Ώμου & Ισχίου στο Ρέθυμνο",
   hero: {
     heading: "Αποκατάσταση Γόνατος, Ώμου & Ισχίου στο Ρέθυμνο",
+    image: {
+      src: "/images/rehab/apokatastasi-gonatos-omou-ischiou.webp",
+      alt: "Αποκατάσταση γόνατος, ώμου και ισχίου στο FisioLab",
+      width: 2000,
+      height: 1212,
+      focalPoint: { x: 0.5, y: 0.4 },
+    },
     cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },
   },
   body: [

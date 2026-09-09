@@ -14,6 +14,8 @@ export interface HomeContent {
   heroCredentials?: string[];
   intro: RichText;
   introCta?: Cta;
+  /** Photo gallery shown before the services section. */
+  gallery?: ImageMeta[];
   trustBar: TrustBar;
   servicesHeading: string;
   services: ServiceCard[];
@@ -40,6 +42,8 @@ export interface PrivacyContent {
 
 export interface TherapiesPageContent {
   hero?: PageHero;
+  /** Photo gallery shown after the hero / before therapy lists. */
+  gallery?: ImageMeta[];
   therapiesHeading: string;
   therapies: ServiceCard[];
   rehabProgramsHeading?: string;

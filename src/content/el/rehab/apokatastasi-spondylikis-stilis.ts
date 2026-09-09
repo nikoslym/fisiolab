@@ -5,6 +5,13 @@ export const rehabProgram: RehabProgram = {
   title: "Αποκατάσταση Σπονδυλικής Στήλης στο Ρέθυμνο",
   hero: {
     heading: "Αποκατάσταση Σπονδυλικής Στήλης στο Ρέθυμνο",
+    image: {
+      src: "/images/rehab/apokatastasi-spondylikis-stilis.webp",
+      alt: "Αποκατάσταση σπονδυλικής στήλης στο FisioLab",
+      width: 1333,
+      height: 2000,
+      focalPoint: { x: 0.5, y: 0.4 },
+    },
     cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },
   },
   body: [

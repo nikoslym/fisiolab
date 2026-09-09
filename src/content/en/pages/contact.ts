@@ -10,8 +10,8 @@ export const contactContent: ContactContent = {
     image: {
       src: "/images/contact/storefront.webp",
       alt: "FisioLab Physiotherapy Center in Rethymno",
-      width: 1800,
-      height: 1793,
+      width: 2000,
+      height: 1992,
       focalPoint: { x: 0.5, y: 0.45 },
     },
   },

@@ -5,6 +5,13 @@ export const rehabProgram: RehabProgram = {
   title: "Αθλητική Αποκατάσταση στο Ρέθυμνο",
   hero: {
     heading: "Αθλητική Αποκατάσταση στο Ρέθυμνο",
+    image: {
+      src: "/images/rehab/athlitiki-apokatastasi.webp",
+      alt: "Αθλητική αποκατάσταση στο FisioLab",
+      width: 1333,
+      height: 2000,
+      focalPoint: { x: 0.5, y: 0.4 },
+    },
     cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },
   },
   body: [

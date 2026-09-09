@@ -13,9 +13,13 @@ export function TherapyPageTemplate({
   locale: Locale;
 }) {
   const primaryImage = content.hero?.image ?? content.images?.[0];
-  const hero = content.hero
-    ? { ...content.hero, image: primaryImage }
-    : { heading: content.title, image: primaryImage };
+  // Internal therapy pages use the therapy name as the page title (H1).
+  const hero = {
+    heading: content.title,
+    subheading: content.hero?.subheading,
+    image: primaryImage,
+    cta: content.hero?.cta,
+  };
   const remainingImages = content.images?.filter(
     (image) => image.src !== primaryImage?.src,
   );

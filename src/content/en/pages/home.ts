@@ -16,8 +16,8 @@ export const homeContent: HomeContent = {
     image: {
       src: "/images/home/physio-session-hero.webp",
       alt: "Physiotherapy treatment session at FisioLab",
-      width: 2000,
-      height: 1201,
+      width: 2400,
+      height: 1570,
       coverScale: 1.05,
       focalPoint: { x: 0.55, y: 0.35 },
     },
@@ -56,6 +56,33 @@ export const homeContent: HomeContent = {
     label: "View our services",
     href: "/therapeies",
   },
+
+  gallery: [
+    {
+      src: "/images/home/gallery-01.webp",
+      alt: "FisioLab reception area",
+      width: 1384,
+      height: 2000,
+    },
+    {
+      src: "/images/home/gallery-02.webp",
+      alt: "Exercise and rehabilitation space",
+      width: 2000,
+      height: 1255,
+    },
+    {
+      src: "/images/home/gallery-03.webp",
+      alt: "TECAR therapy at FisioLab",
+      width: 2000,
+      height: 1333,
+    },
+    {
+      src: "/images/home/gallery-04.webp",
+      alt: "FisioLab waiting area",
+      width: 2000,
+      height: 1333,
+    },
+  ],
   trustBar,
   servicesHeading: "Our services",
   services: serviceCards,
@@ -83,8 +110,8 @@ export const homeContent: HomeContent = {
     image: {
       src: "/images/home/first-appointment.webp",
       alt: "Clinical assessment and required certificates",
-      width: 1067,
-      height: 1600,
+      width: 1333,
+      height: 2000,
       focalPoint: { x: 0.5, y: 0.4 },
     },
   },

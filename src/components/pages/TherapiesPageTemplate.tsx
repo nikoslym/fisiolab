@@ -2,6 +2,7 @@ import type { TherapiesPageContent } from "@/content/types";
 import type { Locale } from "@/lib/i18n/config";
 import { Container, Section } from "@/components/layout/Container";
 import { Hero } from "@/components/blocks/Hero";
+import { ImageGallery } from "@/components/blocks/ImageGallery";
 import { ServiceGrid } from "@/components/blocks/ServiceGrid";
 
 export function TherapiesPageTemplate({
@@ -14,6 +15,9 @@ export function TherapiesPageTemplate({
   return (
     <>
       {content.hero && <Hero content={content.hero} locale={locale} />}
+      {content.gallery && content.gallery.length > 0 && (
+        <ImageGallery images={content.gallery} />
+      )}
       <Section className="bg-dot-grid">
         <Container>
           <div className="mb-10 flex items-end justify-between gap-6">
@@ -27,10 +31,7 @@ export function TherapiesPageTemplate({
               </h2>
             </div>
           </div>
-          <ServiceGrid
-            items={content.therapies}
-            locale={locale}
-          />
+          <ServiceGrid items={content.therapies} locale={locale} />
         </Container>
       </Section>
       {content.rehabPrograms.length > 0 && content.rehabProgramsHeading && (
@@ -45,10 +46,7 @@ export function TherapiesPageTemplate({
                 {content.rehabProgramsHeading}
               </h2>
             </div>
-            <ServiceGrid
-              items={content.rehabPrograms}
-              locale={locale}
-            />
+            <ServiceGrid items={content.rehabPrograms} locale={locale} />
           </Container>
         </Section>
       )}
