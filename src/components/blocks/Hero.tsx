@@ -137,7 +137,11 @@ export function Hero({
           >
             <ContentImage
               image={content.image}
-              sizes="(min-width: 1024px) 280px, 260px"
+              sizes={
+                isPortraitImage
+                  ? "(min-width: 1024px) 280px, 260px"
+                  : "(min-width: 1280px) 560px, (min-width: 1024px) 45vw, 100vw"
+              }
               priority
             />
           </div>

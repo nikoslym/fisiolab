@@ -68,6 +68,7 @@ export const reviewSummary: ReviewSummary = {
   ],
   externalLink: {
     label: "Δείτε τις αξιολογήσεις στο Google",
-    href: "https://share.google/hwpbuA1C3mie7B1i1",
+    // Google Search reviews panel (not the business profile share link).
+    href: "https://www.google.com/search?q=fisiolab&si=APenkKnzv9m99ToiohAuzpadUwbOz34nZJ3j2Ukmo5XOUYWAppVTc7-QhL3GmxrX-iY4UQCtRhyjYqfr6RWs3nYL2SxU7Lmt0Ghlu0x-P--Vv3nfuIQvMF8%3D&uds=AJ5uw1-CsN_VmOWvV4nQCD6b3IOKz_GIrudMQ3L0t3Rtl7xUQS2QR1EzHKaXHJR4ly0MMI9VcSbrfLFSfJInEIm1STPdljFppIRHvbZQ6wZ-_ZcgTvQKQcQ#sv=CAESzQEKuQEStgEKd0FKaVQ0dEtocDk3LUlWd29sSVJXQjllYWpGaGl5YllvQ3hlV0pLODdFMk1WNmlBU0RyWExWV0k1UVZEa1NFeDdrbGdMM3VKMHpyS0tGTXNlOHZoU3F6clZvSXNkYzJGdnM2d184MDVlSzZYY0NzeG43cTdLYU9NEhdEaHFoYW9lSUhNVzZpLWdQN1otbDZBVRoiQURzcjlmUkR0ZkQ3OTk1c2o3MkxiVTR5dkZZZnBldEZHURIEODA1MRoBMyoAMAA4AUAAGAAgr5XXjAI6AEoCEAE",
   },
 };
