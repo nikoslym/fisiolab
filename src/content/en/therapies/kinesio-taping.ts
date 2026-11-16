@@ -185,29 +185,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Δοκιμάστε σήμερα τις θεραπευτικές ιδιότητες του Kinesio Taping για να νιώσετε άμεση ανακούφιση από τον πόνο. Η εφαρμογή είναι εύκολη, ανώδυνη και χωρίς ταλαιπωρία.",
     },
-    {
-      type: "heading",
-      level: 2,
-      text: "INFORMATION – RESULTS",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "FREQUENCY OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "Αλλαγή Kinesio Tape κάθε 3-5 μέρες",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "RESULTS",
-    },
-    {
-      type: "paragraph",
-      text: "Από τη 1η εφαρμογή",
-    },
   ],
   images: [
     {

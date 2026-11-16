@@ -80,47 +80,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Persistent pain has significant psychological and physical consequences. Don't let it steal moments from your daily life. Make an appointment now and feel the beneficial effects of diathermy.",
     },
-    {
-      type: "heading",
-      level: 2,
-      text: "INFORMATION – RESULTS",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "DURATION OF SESSION",
-    },
-    {
-      type: "paragraph",
-      text: "15-20 minutes",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "NUMBER OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "8-10",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "FREQUENCY OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "3 times a week",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "RESULTS",
-    },
-    {
-      type: "paragraph",
-      text: "From the 2nd session",
-    },
   ],
   images: [
     {

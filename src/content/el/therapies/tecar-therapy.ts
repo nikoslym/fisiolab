@@ -202,19 +202,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Επικοινωνήστε μαζί μας σήμερα για να προγραμματίσετε τη συνεδρία θεραπείας Tecar και να βιώσετε τη θεραπευτική δύναμη αυτής της πρωτοποριακής τεχνικής.",
     },
-    { type: "heading", level: 2, text: "ΠΛΗΡΟΦΟΡΙΕΣ – ΑΠΟΤΕΛΕΣΜΑΤΑ" },
-    { type: "heading", level: 3, text: "ΔΙΑΡΚΕΙΑ ΣΥΝΕΔΡΙΑΣ" },
-    { type: "paragraph", text: "10-30 λεπτά" },
-    { type: "heading", level: 3, text: "ΑΡΙΘΜΟΣ ΣΥΝΕΔΡΙΩΝ" },
-    {
-      type: "paragraph",
-      text: "8-10 εξαρτάται από την πάθηση & τη σοβαρότητα",
-    },
-    { type: "heading", level: 3, text: "ΣΥΧΝΟΤΗΤΑ ΣΥΝΕΔΡΙΩΝ" },
-    {
-      type: "paragraph",
-      text: "3-6 συνεδρίες/εβδομαδιαίως (με ενδιάμεσα διαστήματα)",
-    },
     {
       type: "heading",
       level: 2,

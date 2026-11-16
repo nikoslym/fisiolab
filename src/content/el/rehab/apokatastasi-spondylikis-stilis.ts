@@ -2,9 +2,9 @@ import type { RehabProgram } from "@/content/types";
 
 export const rehabProgram: RehabProgram = {
   slug: "apokatastasi-spondylikis-stilis",
-  title: "Αποκατάσταση Σπονδυλικής Στήλης στο Ρέθυμνο",
+  title: "Αποκατάσταση Σπονδυλικής Στήλης",
   hero: {
-    heading: "Αποκατάσταση Σπονδυλικής Στήλης στο Ρέθυμνο",
+    heading: "Αποκατάσταση Σπονδυλικής Στήλης",
     image: {
       src: "/images/rehab/apokatastasi-spondylikis-stilis.webp",
       alt: "Αποκατάσταση σπονδυλικής στήλης στο FisioLab",
@@ -96,7 +96,7 @@ export const rehabProgram: RehabProgram = {
   ],
   cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },
   seo: {
-    title: "Αποκατάσταση Σπονδυλικής Στήλης στο Ρέθυμνο | FisioLab",
+    title: "Αποκατάσταση Σπονδυλικής Στήλης | FisioLab",
     description:
       "Φυσικοθεραπευτική αποκατάσταση για αυχενικό πόνο, οσφυαλγία, ισχιαλγία και δυσλειτουργίες σπονδυλικής στήλης στο FisioLab Ρεθύμνου.",
   },

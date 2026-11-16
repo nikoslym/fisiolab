@@ -150,47 +150,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Don't let your body suffer from painful injuries. Make your appointment today and come and discuss the problem that is making your daily life difficult and how Trigger Point Therapy can provide you with relief.",
     },
-    {
-      type: "heading",
-      level: 2,
-      text: "INFORMATION – RESULTS",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "DURATION OF SESSION",
-    },
-    {
-      type: "paragraph",
-      text: "30-35 minutes",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "NUMBER OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "8-10",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "FREQUENCY OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "2-3 / week",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "RESULTS",
-    },
-    {
-      type: "paragraph",
-      text: "From the 2nd session",
-    },
   ],
   images: [
     {

@@ -2,9 +2,9 @@ import type { RehabProgram } from "@/content/types";
 
 export const rehabProgram: RehabProgram = {
   slug: "athlitiki-apokatastasi",
-  title: "Αθλητική Αποκατάσταση στο Ρέθυμνο",
+  title: "Αθλητική Αποκατάσταση",
   hero: {
-    heading: "Αθλητική Αποκατάσταση στο Ρέθυμνο",
+    heading: "Αθλητική Αποκατάσταση",
     image: {
       src: "/images/rehab/athlitiki-apokatastasi.webp",
       alt: "Αθλητική αποκατάσταση στο FisioLab",
@@ -91,8 +91,8 @@ export const rehabProgram: RehabProgram = {
   relatedSlugs: ["therapeftiki-askisi", "shockwave", "high-power-laser"],
   cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },
   seo: {
-    title: "Αθλητική Αποκατάσταση στο Ρέθυμνο | FisioLab",
+    title: "Αθλητική Αποκατάσταση | FisioLab",
     description:
-      "Αθλητική αποκατάσταση στο FisioLab στο Ρέθυμνο, για τραυματισμούς, τενοντοπάθειες και ασφαλή επιστροφή σε προπόνηση και δραστηριότητα.",
+      "Αθλητική αποκατάσταση στο FisioLab, για τραυματισμούς, τενοντοπάθειες και ασφαλή επιστροφή σε προπόνηση και δραστηριότητα.",
   },
 };

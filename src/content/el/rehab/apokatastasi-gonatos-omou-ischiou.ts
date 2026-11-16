@@ -2,9 +2,9 @@ import type { RehabProgram } from "@/content/types";
 
 export const rehabProgram: RehabProgram = {
   slug: "apokatastasi-gonatos-omou-ischiou",
-  title: "Αποκατάσταση Γόνατος, Ώμου & Ισχίου στο Ρέθυμνο",
+  title: "Αποκατάσταση Γόνατος, Ώμου & Ισχίου",
   hero: {
-    heading: "Αποκατάσταση Γόνατος, Ώμου & Ισχίου στο Ρέθυμνο",
+    heading: "Αποκατάσταση Γόνατος, Ώμου & Ισχίου",
     image: {
       src: "/images/rehab/apokatastasi-gonatos-omou-ischiou.webp",
       alt: "Αποκατάσταση γόνατος, ώμου και ισχίου στο FisioLab",
@@ -106,7 +106,7 @@ export const rehabProgram: RehabProgram = {
   ],
   cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },
   seo: {
-    title: "Αποκατάσταση Γόνατος, Ώμου & Ισχίου στο Ρέθυμνο | FisioLab",
+    title: "Αποκατάσταση Γόνατος, Ώμου & Ισχίου | FisioLab",
     description:
       "Εξατομικευμένη φυσικοθεραπευτική αποκατάσταση για γόνατο, ώμο και ισχίο στο FisioLab Ρεθύμνου, με αξιολόγηση, θεραπεία και προοδευτική άσκηση.",
   },

@@ -2,9 +2,9 @@ import type { RehabProgram } from "@/content/types";
 
 export const rehabProgram: RehabProgram = {
   slug: "therapeftiki-askisi",
-  title: "Θεραπευτική Άσκηση στο Ρέθυμνο",
+  title: "Θεραπευτική Άσκηση",
   hero: {
-    heading: "Θεραπευτική Άσκηση στο Ρέθυμνο",
+    heading: "Θεραπευτική Άσκηση",
     image: {
       src: "/images/rehab/therapeftiki-askisi.webp",
       alt: "Θεραπευτική άσκηση στο FisioLab",
@@ -95,8 +95,8 @@ export const rehabProgram: RehabProgram = {
   ],
   cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },
   seo: {
-    title: "Θεραπευτική Άσκηση στο Ρέθυμνο | FisioLab",
+    title: "Θεραπευτική Άσκηση | FisioLab",
     description:
-      "Εξατομικευμένη θεραπευτική άσκηση στο FisioLab στο Ρέθυμνο, για αποκατάσταση πόνου, κινητικότητας, δύναμης και λειτουργικότητας.",
+      "Εξατομικευμένη θεραπευτική άσκηση στο FisioLab, για αποκατάσταση πόνου, κινητικότητας, δύναμης και λειτουργικότητας.",
   },
 };

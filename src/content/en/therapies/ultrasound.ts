@@ -74,47 +74,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Book your appointment today for an initial diagnostic examination, so that together we can find the therapeutic solution that suits your body's needs.",
     },
-    {
-      type: "heading",
-      level: 2,
-      text: "INFORMATION – RESULTS",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "DURATION OF SESSION",
-    },
-    {
-      type: "paragraph",
-      text: "10-25 minutes",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "NUMBER OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "8-12",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "FREQUENCY OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "4-5 / week",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "RESULTS",
-    },
-    {
-      type: "paragraph",
-      text: "From the 2nd session",
-    },
   ],
   images: [
     {

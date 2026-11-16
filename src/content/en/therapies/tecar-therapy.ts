@@ -292,47 +292,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Don't let pain, injury, or new circumstances in your life get in the way of your daily life. Contact us today to schedule your Tecar therapy session and experience the healing power of this groundbreaking technique.",
     },
-    {
-      type: "heading",
-      level: 2,
-      text: "INFORMATION – RESULTS",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "DURATION OF SESSION",
-    },
-    {
-      type: "paragraph",
-      text: "10-30 minutes",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "NUMBER OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "8-10 depends on the condition & severity",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "FREQUENCY OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "3-6 sessions/week (with intervals)",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "RESULTS",
-    },
-    {
-      type: "paragraph",
-      text: "9 out of 10 cases see results from the 1st session",
-    },
   ],
   images: [
     {

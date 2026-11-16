@@ -159,47 +159,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Μην αφήνετε τον οργανισμό σας να ταλαιπωρείται από την κακή λειτουργία του λεμφικού συστήματος. Κλείστε σήμερα το ραντεβού σας και ελάτε να συζητήσουμε το πρόβλημα που σας ταλαιπωρεί και πώς η θεραπεία μπορεί να σας ανακουφίσει.",
     },
-    {
-      type: "heading",
-      level: 2,
-      text: "INFORMATION – RESULTS",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "DURATION OF SESSION",
-    },
-    {
-      type: "paragraph",
-      text: "30-60 λεπτά",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "NUMBER OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "5-10",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "FREQUENCY OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "2-3 φορές την εβδομάδα",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "RESULTS",
-    },
-    {
-      type: "paragraph",
-      text: "Από την 3η συνεδρία",
-    },
   ],
   images: [
     {

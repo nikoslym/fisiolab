@@ -2,9 +2,9 @@ import type { RehabProgram } from "@/content/types";
 
 export const rehabProgram: RehabProgram = {
   slug: "metegcheiritiki-apokatastasi",
-  title: "Μετεγχειρητική Αποκατάσταση στο Ρέθυμνο",
+  title: "Μετεγχειρητική Αποκατάσταση",
   hero: {
-    heading: "Μετεγχειρητική Αποκατάσταση στο Ρέθυμνο",
+    heading: "Μετεγχειρητική Αποκατάσταση",
     image: {
       src: "/images/rehab/metegcheiritiki-apokatastasi.webp",
       alt: "Μετεγχειρητική αποκατάσταση στο FisioLab",
@@ -70,11 +70,6 @@ export const rehabProgram: RehabProgram = {
       text: "Ανάλογα με τη φάση και την ανοχή του ασθενούς, το πρόγραμμα μπορεί να περιλαμβάνει θεραπευτική άσκηση, κινητοποίηση, νευρομυϊκή επανεκπαίδευση και υποστηρικτικές τεχνολογίες όπως TECAR, laser, ηλεκτροθεραπεία ή πρεσσοθεραπεία. Η χρήση κάθε μέσου γίνεται με συγκεκριμένο στόχο και όχι μηχανικά.",
     },
     {
-      type: "heading",
-      level: 2,
-      text: "Τι κάνει τη μετεγχειρητική αποκατάσταση premium",
-    },
-    {
       type: "paragraph",
       text: "Η ποιότητα φαίνεται στην ακρίβεια. Σωστή παρακολούθηση προόδου, προσαρμογή του πλάνου, επικοινωνία με τις ιατρικές οδηγίες και καθαρά κριτήρια μετάβασης από τη μία φάση στην άλλη. Ο ασθενής πρέπει να ξέρει πού βρίσκεται, τι επιτρέπεται, τι αποφεύγεται και ποιο είναι το επόμενο βήμα.",
     },
@@ -86,7 +81,7 @@ export const rehabProgram: RehabProgram = {
   relatedSlugs: ["apokatastasi-gonatos-omou-ischiou", "therapeftiki-askisi"],
   cta: { label: "Κλείστε αξιολόγηση", href: "/epikoinonia" },
   seo: {
-    title: "Μετεγχειρητική Αποκατάσταση στο Ρέθυμνο | FisioLab",
+    title: "Μετεγχειρητική Αποκατάσταση | FisioLab",
     description:
       "Εξειδικευμένη μετεγχειρητική φυσικοθεραπεία στο FisioLab στο Ρέθυμνο, μετά από ορθοπεδικές επεμβάσεις, με εξατομικευμένο πλάνο αποκατάστασης.",
   },

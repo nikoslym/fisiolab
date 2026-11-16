@@ -133,47 +133,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Start shockwave therapy immediately and overcome the chronic pain or injury that is bothering you. Schedule your first visit today. Don't wait any longer to take the first step towards a pain-free future.",
     },
-    {
-      type: "heading",
-      level: 2,
-      text: "INFORMATION – RESULTS",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "DURATION OF SESSION",
-    },
-    {
-      type: "paragraph",
-      text: "12-30 minutes",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "NUMBER OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "8-12 depends on the condition & severity",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "FREQUENCY OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "2-4 sessions/week (with intervals)",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "RESULTS",
-    },
-    {
-      type: "paragraph",
-      text: "80% pain reduction after the 2nd session",
-    },
   ],
   images: [
     {

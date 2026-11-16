@@ -125,47 +125,6 @@ export const therapy: Therapy = {
       type: "paragraph",
       text: "Με τη σωστή καθοδήγηση και φροντίδα, μπορείτε να βιώσετε κι εσείς τα πολλαπλά οφέλη της θεραπείας Vacuum. Επικοινωνήστε μαζί μας σήμερα για να σας βοηθήσουμε να επιτύχετε τα καλύτερα θεραπευτικά αποτελέσματα. Νιώστε και πάλι λειτουργικοί στην καθημερινότητά σας!",
     },
-    {
-      type: "heading",
-      level: 2,
-      text: "INFORMATION – RESULTS",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "DURATION OF SESSION",
-    },
-    {
-      type: "paragraph",
-      text: "30-60 λεπτά",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "NUMBER OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "8-10 depends on the condition & severity",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "FREQUENCY OF SESSIONS",
-    },
-    {
-      type: "paragraph",
-      text: "3-5 συνεδρίες/εβδομαδιαίως (με ενδιάμεσα διαστήματα)",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "RESULTS",
-    },
-    {
-      type: "paragraph",
-      text: "9 στις 10 περιπτώσεις βλέπουν αποτέλεσμα από την 3η συνεδρία",
-    },
   ],
   images: [
     {
