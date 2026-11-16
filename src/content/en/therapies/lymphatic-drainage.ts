@@ -6,7 +6,7 @@ export const therapy: Therapy = {
   hero: {
     heading: "Free yourself from pain",
     subheading:
-      "Μειώστε τα οιδήματα που προκαλούνται από έλλειψη κίνησης ή ορθοστασία\nΑνακουφίστε πρησμένες γάμπες και αστραγάλους\nΑντιμετωπίστε παθήσεις του πεπτικού & θεραπεύστε χρόνιες φλεγμονές\nΒελτιώστε το ανοσοποιητικό σας σύστημα",
+      "Reduce swelling caused by lack of movement or prolonged standing. Relieve swollen calves and ankles. Address digestive conditions and treat chronic inflammation. Improve your immune system.",
     cta: {
       label: "Book an Assessment",
       href: "/contact",
@@ -16,138 +16,112 @@ export const therapy: Therapy = {
     {
       type: "heading",
       level: 2,
-      text: "Λεμφική παροχέτευση: τι είναι και ποιος είναι ο σκοπός της",
+      text: "Lymphatic drainage: what it is and what it is for",
     },
     {
       type: "paragraph",
-      text: "Είναι μια απαλή, ρυθμική θεραπευτική τεχνική που πραγματοποιείται με τα χέρια (ονομάζεται και λεμφικό μασάζ ή λεμφική αποστράγγιση) και βοηθάει στην άμεση τόνωση του λεμφικού συστήματος.",
+      text: "It is a gentle, rhythmic therapeutic technique performed by hand (also called lymphatic massage or lymphatic drainage) that directly stimulates the lymphatic system.",
     },
     {
       type: "paragraph",
-      text: "Το λεμφικό σύστημα είναι ένα δίκτυο από αγγεία που διατρέχει όλο το σώμα. Χρησιμεύει στην απομάκρυνση των βλαβερών ουσιών του οργανισμού, στη διατήρηση της ισορροπίας των υγρών και η καλή λειτουργία του βασίζεται αποκλειστικά στην κίνηση του σώματος.",
+      text: "The lymphatic system is a network of vessels that runs throughout the body. It removes harmful substances, maintains fluid balance, and depends entirely on body movement to work well.",
     },
     {
       type: "paragraph",
-      text: "Όταν το λεμφικό σύστημα δεν λειτουργεί σωστά και αδυνατεί να απομακρύνει τα απόβλητα και τις τοξίνες από το σώμα, αυτά συσσωρεύονται και προκαλούν φλεγμονή και οιδήματα.",
+      text: "When the lymphatic system does not work properly and cannot remove waste and toxins from the body, they build up and cause inflammation and swelling.",
     },
     {
       type: "heading",
       level: 3,
-      text: "Σκοπός της λεμφικής παροχέτευσης",
+      text: "The purpose of lymphatic drainage",
     },
     {
       type: "paragraph",
-      text: "είναι να βελτιώσει τη ροή του λεμφικού υγρού, να αποστραγγίσει την περίσσεια υγρού από τους ιστούς και να βοηθήσει στη φυσική αποκατάσταση της λέμφου, που είναι ο βασικότερος ρυθμιστής της καλής λειτουργίας του ανοσοποιητικού συστήματος.",
+      text: "is to improve the flow of lymphatic fluid, drain excess fluid from the tissues, and support the natural recovery of lymph, the main regulator of a healthy immune system.",
     },
     {
       type: "heading",
       level: 2,
-      text: "Πώς γίνεται η λεμφική παροχέτευση",
+      text: "How lymphatic drainage is performed",
     },
     {
       type: "paragraph",
-      text: "Ασκούμε ελαφριές, ρυθμικές πιέσεις για να διεγείρουμε σε συγκεκριμένα σημεία τα λεμφικά αγγεία και να διευκολύνουμε τη ροή του λεμφικού υγρού. Η λέμφος ακολουθεί μονόδρομη πορεία, με κατεύθυνση από την περιφέρεια προς το κέντρο, οπότε σκοπός μας είναι μέσα από στοχευμένες μαλάξεις σε συγκεκριμένους λεμφικούς κόμβους να αποσυμφορήσουμε το στάσιμο υγρό και να ενεργοποιήσουμε τη λέμφο για να μπορέσει να απομακρύνει τις βλαβερές τοξίνες από τον οργανισμό. Έτσι, μειώνονται το πρήξιμο και η φλεγμονή, και προάγεται η επούλωση.",
+      text: "We apply light, rhythmic pressure at specific points to stimulate the lymphatic vessels and help lymphatic fluid flow. Lymph travels in one direction, from the periphery toward the center, so targeted massage of specific lymph nodes clears stagnant fluid and activates lymph so it can remove harmful toxins. Swelling and inflammation decrease, and healing is promoted.",
     },
     {
       type: "paragraph",
-      text: "Η παροχέτευση των λεμφαδένων περιλαμβάνει έναν συνδυασμό χειροθεραπευτικών τεχνικών, όπως ήπιες μαλάξεις, διατάσεις και κυκλικές κινήσεις. Ωστόσο, σε ορισμένες κλινικές περιπτώσεις γίνεται και χρήση ειδικού εξοπλισμού. Η συγκεκριμένη τεχνική είναι:",
+      text: "Lymph-node drainage combines manual techniques such as gentle massage, stretching, and circular movements. In some clinical cases, specialized equipment is also used. The technique is:",
     },
     {
       type: "list",
       ordered: false,
       items: [
-        "Εξατομικευμένη, με βάση τις ανάγκες του θεραπευόμενου",
-        "Ανώδυνη",
-        "Μη επεμβατική",
-        "Ανακουφιστική",
-        "Βαθιά χαλαρωτική",
+        "Personalized to the patient's needs",
+        "Painless",
+        "Non-invasive",
+        "Soothing",
+        "Deeply relaxing",
       ],
     },
     {
       type: "heading",
       level: 2,
-      text: "Ποια είναι τα οφέλη της λεμφικής παροχέτευσης",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "Μείωση του πρηξίματος και της φλεγμονής",
-    },
-    {
-      type: "paragraph",
-      text: "Βοηθάει στην αποσυμφόρηση του πρηξίματος και της φλεγμονής, κυρίως στα άκρα. Είναι ιδιαίτερα ευεργετική τεχνική για τα άτομα με λεμφοίδημα, κατάσταση όπου το λεμφικό σύστημα έχει υποστεί βλάβη ή έχει μπλοκαριστεί, προκαλώντας πρήξιμο στα χέρια ή τα πόδια.",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "Ενίσχυση του ανοσοποιητικού συστήματος",
-    },
-    {
-      type: "paragraph",
-      text: "Βελτιώνει την καλή λειτουργία του ανοσοποιητικού εξαιτίας της αποβολής των τοξινών από τον οργανισμό.",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "Ανακούφιση από το στρες και το άγχος",
-    },
-    {
-      type: "paragraph",
-      text: "Είναι χαλαρωτική και καταπραϋντική τεχνική που προάγει την αίσθηση ηρεμίας και ευεξίας.",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "Βελτίωση της αθλητικής απόδοσης",
-    },
-    {
-      type: "paragraph",
-      text: "Βοηθάει στη μείωση του μυϊκού πόνου και στη βελτίωση της κυκλοφορίας, γεγονός που ενισχύει την αθλητική απόδοση και επιταχύνει την αποκατάσταση μετά την άσκηση.",
-    },
-    {
-      type: "heading",
-      level: 2,
-      text: "ΔΟΚΙΜΑΣΤΕ ΤΑ ΟΦΕΛΗ ΤΗΣ ΛΕΜΦΙΚΗΣ ΠΑΡΟΧΕΤΕΥΣΗΣ",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "Ενδείξεις που προειδοποιούν για την κακή κυκλοφορία του λεμφικού συστήματος",
+      text: "Benefits of lymphatic drainage",
     },
     {
       type: "list",
       ordered: false,
       items: [
-        "Χρόνια φλεγμονή",
-        "Δυσκινησία & πόνος στις αρθρώσεις",
-        "Έντονο πρήξιμο στα άνω & κάτω άκρα",
-        "Πρησμένοι αδένες γύρω από τον λαιμό και τις μασχάλες",
-        "Σακούλες και πρήξιμο γύρω από τα μάτια",
-        "Παθήσεις του πεπτικού συστήματος (διάρροια ή δυσκοιλιότητα)",
+        "Reduction of swelling and inflammation: It helps clear swelling and inflammation, especially in the limbs. It is particularly beneficial for people with lymphedema, a condition in which the lymphatic system is damaged or blocked and causes swelling in the arms or legs.",
+        "Support for the immune system: It supports immune function by helping the body clear toxins.",
+        "Relief from stress and anxiety: It is a relaxing, calming technique that promotes a sense of calm and wellbeing.",
+        "Improved athletic performance: It helps reduce muscle pain and improve circulation, which supports athletic performance and speeds recovery after exercise.",
       ],
     },
     {
       type: "heading",
       level: 2,
-      text: "For which diseases is the treatment suitable?",
+      text: "Experience the benefits of lymphatic drainage",
     },
     {
-      type: "paragraph",
-      text: "Κλινικές έρευνες έχουν αποδείξει ότι η τεχνική της λεμφικής αποστράγγισης έχει ευεργετικά οφέλη για ένα μεγάλο εύρος παθήσεων:",
+      type: "heading",
+      level: 2,
+      text: "Signs of poor lymphatic circulation",
     },
     {
       type: "list",
       ordered: false,
       items: [
-        "Ρευματισμοί, αρθρίτιδες, αρθροπάθειες",
-        "Μαστεκτομή",
-        "Ορθοπεδικές παθήσεις",
-        "Χειρουργικές επεμβάσεις γόνατος/ισχίου",
-        "Χρόνια φλεβική ανεπάρκεια",
-        "Οιδήματα",
-        "Λεμφικά και φλεβικά οιδήματα στα αρχικά στάδια",
-        "Νευρολογικά προβλήματα",
-        "Παθολογικές καταστάσεις (νεφροπάθειες, καρδιακή ανεπάρκεια). Όταν παρεμποδίζεται η αποχέτευση της λέμφου από διάφορα αίτια π.χ. όγκοι, φλεγμονές των λεμφαδένων ή μετά από χειρουργική αφαίρεση αριθμού λεμφαδένων.",
+        "Chronic inflammation",
+        "Stiffness and joint pain",
+        "Marked swelling in the arms and legs",
+        "Swollen glands around the neck and armpits",
+        "Bags and swelling around the eyes",
+        "Digestive conditions (diarrhea or constipation)",
+      ],
+    },
+    {
+      type: "heading",
+      level: 2,
+      text: "For which conditions is the treatment suitable?",
+    },
+    {
+      type: "paragraph",
+      text: "Clinical research has shown that lymphatic drainage has beneficial effects across a wide range of conditions:",
+    },
+    {
+      type: "list",
+      ordered: false,
+      items: [
+        "Rheumatism, arthritis, and arthropathies",
+        "Mastectomy",
+        "Orthopedic conditions",
+        "Knee and hip surgery",
+        "Chronic venous insufficiency",
+        "Edema",
+        "Lymphatic and venous edema in the early stages",
+        "Neurological problems",
+        "Medical conditions (kidney disease, heart failure), and when lymph drainage is blocked by causes such as tumors, inflamed lymph nodes, or surgical removal of lymph nodes.",
       ],
     },
     {
@@ -157,7 +131,7 @@ export const therapy: Therapy = {
     },
     {
       type: "paragraph",
-      text: "Μην αφήνετε τον οργανισμό σας να ταλαιπωρείται από την κακή λειτουργία του λεμφικού συστήματος. Κλείστε σήμερα το ραντεβού σας και ελάτε να συζητήσουμε το πρόβλημα που σας ταλαιπωρεί και πώς η θεραπεία μπορεί να σας ανακουφίσει.",
+      text: "Don't let poor lymphatic function keep wearing your body down. Book your appointment today and let's discuss what is bothering you and how treatment can help.",
     },
   ],
   images: [
@@ -168,6 +142,7 @@ export const therapy: Therapy = {
   ],
   seo: {
     title: "Lymphatic Drainage - FisioLab",
-    description: "Free yourself from pain",
+    description:
+      "Gentle lymphatic drainage to reduce swelling, support the immune system, and relieve chronic inflammation.",
   },
 };

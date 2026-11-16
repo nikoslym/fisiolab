@@ -181,7 +181,7 @@ export const pageRegistry: Record<PageKey, PageRegistryEntry> = {
     key: "clinical-pilates",
     kind: "rehab",
     elSlug: "clinical-pilates",
-    enSlug: null, // EN when approved copy exists
+    enSlug: "clinical-pilates",
     existing: false,
   },
   "therapeftiki-askisi": {

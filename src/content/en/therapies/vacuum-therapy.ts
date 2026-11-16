@@ -5,9 +5,9 @@ export const therapy: Therapy = {
   title: "Vacuum Therapy",
   hero: {
     heading:
-      "Φυσική θεραπεία για ανακούφιση του πόνου και βελτίωση της φυσικής σας κατάστασης",
+      "Physical therapy to relieve pain and improve your physical condition",
     subheading:
-      "Μειώστε το αίσθημα του μυϊκού πόνου\nΑντιμετωπίστε τα οιδήματα\nΝιώστε ξανά λειτουργικοί στην καθημερινότητά σας\nΒελτιώστε τη σωματική σας κατάσταση",
+      "Reduce the feeling of muscle pain. Address swelling. Feel functional in your daily life again. Improve your physical condition.",
     cta: {
       label: "Book an Assessment",
       href: "/contact",
@@ -17,104 +17,104 @@ export const therapy: Therapy = {
     {
       type: "heading",
       level: 2,
-      text: "Τι είναι η θεραπεία Vacuum στη φυσικοθεραπεία",
+      text: "What vacuum therapy is in physiotherapy",
     },
     {
       type: "paragraph",
-      text: "Είναι μια σύγχρονη, μη επεμβατική μέθοδος η οποία εφαρμόζεται με τη χρήση από ειδικά κατασκευασμένες βεντούζες. Η τεχνική της στηρίζεται στην αρχαία κινεζική αποτελεσματική πρακτική των βεντουζών. Ωστόσο η τεχνική αυτή έχει μετεξελιχτεί, έχει προσαρμοστεί στα σύγχρονα φυσικοθεραπευτικά πρωτόκολλα και πραγματοποιείται με τη χρήση προηγμένου μηχανήματος.",
+      text: "It is a modern, non-invasive method applied with specially made cups. The technique is based on the effective ancient Chinese practice of cupping. It has since evolved, been adapted to modern physiotherapy protocols, and is performed with advanced equipment.",
     },
     {
       type: "paragraph",
-      text: "Η θεραπεία γίνεται με τη μέθοδο του ελεγχόμενου κενού, της αρνητικής βαρομετρικής πίεσης και της παράλληλης μάλαξης.",
+      text: "Treatment uses controlled vacuum, negative barometric pressure, and massage at the same time.",
     },
     {
       type: "paragraph",
-      text: "Η τριπλή συνδυαστική δράση αυτής της τεχνικής έχει ολιστική επίδραση στην πάσχουσα περιοχή και συμβάλλει δραστικά:",
+      text: "This combined action has a holistic effect on the affected area and contributes directly to:",
     },
     {
       type: "list",
       ordered: false,
       items: [
-        "στην κατακράτηση υγρών εξαιτίας οιδήματος",
-        "στην ανακούφιση των μυϊκών πόνων",
-        "στη μείωση της μυϊκής δυσκαμψίας",
-        "στην ανακούφιση της φλεγμονής",
-        "στη βελτίωση της κυκλοφορίας & της λέμφου",
-        "στην απομάκρυνση των κατακρατημένων και τοξινών διαμέσου της τοπικής κυκλοφορίας",
-        "στην αποκατάσταση της φυσικής ελαστικότητας του δέρματος",
+        "fluid retention caused by swelling",
+        "relief of muscle pain",
+        "reduction of muscle stiffness",
+        "relief of inflammation",
+        "improvement of circulation and lymph flow",
+        "removal of retained fluid and toxins through local circulation",
+        "restoration of the skin's natural elasticity",
       ],
     },
     {
       type: "paragraph",
-      text: "Η θεραπεία είναι ανώδυνη, ασφαλής και αποτελεσματική.",
+      text: "The treatment is painless, safe, and effective.",
     },
     {
       type: "heading",
       level: 2,
-      text: "Ποια είναι τα θεραπευτικά οφέλη",
+      text: "Therapeutic benefits",
     },
     {
       type: "paragraph",
-      text: "Σε αντίθεση με άλλες μορφές θεραπείας που μπορεί να περιλαμβάνουν φαρμακευτική αγωγή ή επεμβατικές διαδικασίες, η θεραπεία Vacuum λειτουργεί διεγείροντας τους φυσικούς θεραπευτικούς μηχανισμούς του σώματος.",
+      text: "Unlike other forms of treatment that may involve medication or invasive procedures, vacuum therapy works by stimulating the body's natural healing mechanisms.",
     },
     {
       type: "paragraph",
-      text: "Συγκεκριμένα:",
+      text: "Specifically, it:",
     },
     {
       type: "list",
       ordered: false,
       items: [
-        "Βελτιώνει τη λεμφική και αγγειακή κυκλοφορία",
-        "Αποσυμφορίζει από τα οιδήματα",
-        "Αυξάνει τον μεταβολισμό και την αποβολή τοξινών",
-        "Επανενεργοποιεί τον συνδετικό ιστό",
-        "Μειώνει την κατακράτηση υγρών και κατ' επέκταση την κυτταρίτιδα",
-        "Βοηθά στην παραγωγή κολλαγόνου και ελαστίνης",
-        "Λειαίνει της επιδερμίδα",
-        "Ελαττώνει τον αριθμό των λιποκυττάρων",
+        "Improves lymphatic and vascular circulation",
+        "Clears swelling",
+        "Increases metabolism and toxin elimination",
+        "Reactivates connective tissue",
+        "Reduces fluid retention and, in turn, cellulite",
+        "Supports the production of collagen and elastin",
+        "Smooths the skin",
+        "Reduces the number of fat cells",
       ],
     },
     {
       type: "heading",
       level: 2,
-      text: "Πώς λειτουργεί η θεραπεία",
+      text: "How the treatment works",
     },
     {
       type: "paragraph",
-      text: "Μέσω του μηχανισμού δράσης της ειδικής κεφαλής, η θεραπεία Vacuum λειτουργεί αυξάνοντας τη ροή του αίματος και τη λεμφική κυκλοφορία, που βοηθούν στη μείωση της φλεγμονής και στην προώθηση της επούλωσης των ιστών. Η αναρρόφηση που δημιουργείται μέσω του ειδικού μηχανήματος τεντώνει τους μυς και τον συνδετικό ιστό, ανακουφίζοντας από την ένταση και απαλύνοντας τον πόνο. Κατά τη θεραπεία γίνεται απελευθέρωση τοξινών και γαλακτικού οξέως, ενώ ενεργοποιείται η αγγειακή και λεμφική κυκλοφορία, με αποτέλεσμα την αποσυμφόρηση του σώματος από την κατακράτηση υγρών και την ανακούφισή του από τον πόνο.",
+      text: "Through the action of a specialized head, vacuum therapy increases blood flow and lymphatic circulation, which help reduce inflammation and promote tissue healing. The suction created by the device stretches the muscles and connective tissue, relieving tension and easing pain. During treatment, toxins and lactic acid are released, and vascular and lymphatic circulation are activated. The body is cleared of retained fluid and relieved of pain.",
     },
     {
       type: "heading",
       level: 2,
-      text: "Για ποιες περιπτώσεις είναι κατάλληλη",
+      text: "Who it is suitable for",
     },
     {
       type: "heading",
       level: 3,
-      text: "Για φυσική αποκατάσταση",
+      text: "For physical rehabilitation",
     },
     {
       type: "paragraph",
-      text: "Είναι ένας αποτελεσματικός τρόπος για την ανακούφιση του χρόνιου πόνου, τη μείωση της μυϊκής δυσκαμψίας και την ανακούφιση των επίμονων οιδημάτων.",
+      text: "It is an effective way to relieve chronic pain, reduce muscle stiffness, and ease persistent swelling.",
     },
     {
       type: "heading",
       level: 3,
-      text: "Για αθλητική αποκατάσταση",
+      text: "For sports rehabilitation",
     },
     {
       type: "paragraph",
-      text: "Χρησιμοποιείται για να βοηθήσει τους αθλητές να ανακάμψουν από τραυματισμούς και να βελτιώσουν την απόδοσή τους, αυξάνοντας την κυκλοφορία και μειώνοντας τον μυϊκό πόνο.",
+      text: "It is used to help athletes recover from injuries and improve performance by increasing circulation and reducing muscle pain.",
     },
     {
       type: "heading",
       level: 3,
-      text: "Για αισθητική αποκατάσταση",
+      text: "For aesthetic rehabilitation",
     },
     {
       type: "paragraph",
-      text: "Έχει εξαιρετικά αισθητικά αποτελέσματα, καθώς επιδρά στον μεταβολισμό του δέρματος (μέσω σύσφιξης και ανόρθωσης), απομακρύνει τις τοξίνες και βοηθάει τη λεμφική αποστράγγιση, με αποτέλεσμα τη βελτίωση της ελαστικότητας του δέρματος, τη μείωση λίπους και την εξάλειψη της κυτταρίτιδας.",
+      text: "It has excellent aesthetic results. It acts on skin metabolism through firming and lifting, removes toxins, and supports lymphatic drainage, improving skin elasticity, reducing fat, and helping eliminate cellulite.",
     },
     {
       type: "heading",
@@ -123,7 +123,7 @@ export const therapy: Therapy = {
     },
     {
       type: "paragraph",
-      text: "Με τη σωστή καθοδήγηση και φροντίδα, μπορείτε να βιώσετε κι εσείς τα πολλαπλά οφέλη της θεραπείας Vacuum. Επικοινωνήστε μαζί μας σήμερα για να σας βοηθήσουμε να επιτύχετε τα καλύτερα θεραπευτικά αποτελέσματα. Νιώστε και πάλι λειτουργικοί στην καθημερινότητά σας!",
+      text: "With the right guidance and care, you can experience the many benefits of vacuum therapy. Contact us today so we can help you achieve the best therapeutic results. Feel functional in your daily life again.",
     },
   ],
   images: [
@@ -135,6 +135,6 @@ export const therapy: Therapy = {
   seo: {
     title: "Vacuum Therapy - FisioLab",
     description:
-      "Φυσική θεραπεία για ανακούφιση του πόνου και βελτίωση της φυσικής σας κατάστασης",
+      "Physical therapy to relieve pain, reduce swelling, and improve your physical condition.",
   },
 };

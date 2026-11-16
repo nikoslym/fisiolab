@@ -50,26 +50,13 @@ export const therapy: Therapy = {
       text: "For which diseases is diathermy suitable?",
     },
     {
-      type: "heading",
-      level: 3,
-      text: "Diseases of the joints and bones",
-    },
-    {
-      type: "paragraph",
-      text: "arthritis, chronic arthropathies, ankylosing spondylitis, etc.",
-    },
-    {
-      type: "heading",
-      level: 3,
-      text: "Muscle diseases",
-    },
-    {
-      type: "paragraph",
-      text: "myalgia, local stiffness, muscular rheumatic diseases, back pain, sciatica, etc.",
-    },
-    {
-      type: "paragraph",
-      text: "Blood circulation disorders and skin diseases.",
+      type: "list",
+      ordered: false,
+      items: [
+        "Diseases of the joints and bones: arthritis, chronic arthropathies, ankylosing spondylitis, etc.",
+        "Muscle diseases: myalgia, local stiffness, muscular rheumatic diseases, back pain, sciatica, etc.",
+        "Blood circulation disorders and skin diseases.",
+      ],
     },
     {
       type: "heading",

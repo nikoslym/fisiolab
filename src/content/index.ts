@@ -72,6 +72,7 @@ import { therapy as enDiathermy } from "@/content/en/therapies/diathermy";
 import { therapy as enVacuum } from "@/content/en/therapies/vacuum-therapy";
 
 import { rehabProgram as elClinicalPilates } from "@/content/el/rehab/clinical-pilates";
+import { rehabProgram as enClinicalPilates } from "@/content/en/rehab/clinical-pilates";
 import { rehabProgram as elTherapeftikiAskisi } from "@/content/el/rehab/therapeftiki-askisi";
 import { rehabProgram as elMetegcheiritiki } from "@/content/el/rehab/metegcheiritiki-apokatastasi";
 import { rehabProgram as elAthlitiki } from "@/content/el/rehab/athlitiki-apokatastasi";
@@ -111,6 +112,15 @@ const elRehabs: Record<RehabSlug, RehabProgram | null> = {
   "athlitiki-apokatastasi": elAthlitiki,
   "apokatastasi-spondylikis-stilis": elSpine,
   "apokatastasi-gonatos-omou-ischiou": elJoints,
+};
+
+const enRehabs: Record<RehabSlug, RehabProgram | null> = {
+  "clinical-pilates": enClinicalPilates,
+  "therapeftiki-askisi": null,
+  "metegcheiritiki-apokatastasi": null,
+  "athlitiki-apokatastasi": null,
+  "apokatastasi-spondylikis-stilis": null,
+  "apokatastasi-gonatos-omou-ischiou": null,
 };
 
 function isTherapySlug(slug: string): slug is TherapySlug {
@@ -192,15 +202,14 @@ export function getRehabProgram(
   locale: Locale,
 ): RehabProgram | null {
   if (!isRehabSlug(slug)) return null;
-  // New rehab pages: Greek only until approved EN copy exists.
-  if (locale === "en") return null;
-  return elRehabs[slug];
+  const map = locale === "en" ? enRehabs : elRehabs;
+  return map[slug];
 }
 
 export function getAllRehabPrograms(locale: Locale): RehabProgram[] {
-  if (locale === "en") return [];
+  const map = locale === "en" ? enRehabs : elRehabs;
   return rehabSlugs
-    .map((slug) => elRehabs[slug])
+    .map((slug) => map[slug])
     .filter((p): p is RehabProgram => p !== null);
 }
 

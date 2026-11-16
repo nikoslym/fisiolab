@@ -15,7 +15,7 @@ import type {
 export const siteSettings: SiteSettings = {
   siteName: "FisioLab",
   contact: {
-    address: "Χ. Δασκαλάκη 5, Ρέθυμνο, 74132",
+    address: "Ch. Daskalaki 5, Rethymno, 74132",
     mapsUrl: "https://share.google/hwpbuA1C3mie7B1i1",
     phone: "+302831025854",
     email: "spanoudakis@fisiolab.eu",
@@ -36,6 +36,7 @@ export const navigation: Navigation = {
   items: [
     { label: "Home", href: "/" },
     { label: "Therapies", href: "/therapeies" },
+    { label: "Clinical Pilates", href: "/clinical-pilates" },
     { label: "About us", href: "/about-us" },
     { label: "Contact", href: "/contact" },
   ],

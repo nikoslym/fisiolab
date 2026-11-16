@@ -21,6 +21,12 @@ export const serviceCards: ServiceCard[] = [
     cta: { label: "Read more", href: "/high-power-laser" },
   },
   {
+    title: "Clinical Pilates",
+    description:
+      "Clinical therapeutic exercise from physiotherapists, based on assessment, for better posture, control, mobility, and functional strength.",
+    cta: { label: "Read more", href: "/clinical-pilates" },
+  },
+  {
     title: "Vacuum Therapy",
     description: "",
     cta: { label: "Read more", href: "/vacuum-therapy" },

@@ -110,8 +110,21 @@ export function Footer({
       </Container>
 
       <div className="border-t border-white/15">
-        <Container className="flex flex-col gap-3 py-5 text-xs text-white/65 sm:flex-row sm:items-center sm:justify-between">
-          <p>{content.copyright}</p>
+        <Container className="flex flex-col gap-3 pt-5 pb-24 text-xs text-white/65 sm:flex-row sm:items-center sm:justify-between lg:pb-5">
+          <div className="space-y-1">
+            <p>{content.copyright}</p>
+            <p>
+              Created by{" "}
+              <a
+                href="https://xophus.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-sm underline-offset-2 transition-colors hover:text-white hover:underline focus-visible:ring-2 focus-visible:ring-white focus-visible:outline-none"
+              >
+                xophus
+              </a>
+            </p>
+          </div>
           <div className="flex flex-wrap gap-4">
             {content.legalLinks.map((item) => (
               <Link
