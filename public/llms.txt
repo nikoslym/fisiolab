@@ -1,0 +1,50 @@
+# FisioLab
+
+> FisioLab is a physiotherapy and clinical rehabilitation center in Rethymno, Crete, Greece. The website is bilingual. Greek is the primary language and is served at the site root. English pages live under /en/.
+
+FisioLab assesses musculoskeletal pain and designs a personal treatment plan. Care combines clinical assessment, hands-on physiotherapy, therapeutic exercise, and equipment such as TECAR (Winback), shockwave (Storz Medical), high-power laser, vacuum therapy, kinesio taping, lymphatic drainage, trigger points, ultrasound, electrotherapy, and diathermy.
+
+Scientific director: Spanoudakis N. Nikos, graduate of the University of L’Aquila, Italy, member of the Panhellenic Association of Physiotherapists. The clinic is contracted with EOPYY.
+
+## Contact
+
+- Address: Χ. Δασκαλάκη 5, Ρέθυμνο 74132, Greece (Ch. Daskalaki 5, Rethymno)
+- Phone: +30 28310 25854
+- Email: spanoudakis@fisiolab.eu
+- Hours: Monday–Thursday 09:00–21:00, Friday 09:00–13:00. Closed Saturday and Sunday.
+- Appointments: https://fisiolab.eu/epikoinonia/ (Greek) and https://fisiolab.eu/en/contact/ (English)
+
+## Greek pages
+
+- [Home](https://fisiolab.eu/): specialized physiotherapy and clinical rehabilitation in Rethymno
+- [Therapies](https://fisiolab.eu/therapeies/): machine therapies and rehabilitation programs
+- [Clinical Pilates](https://fisiolab.eu/clinical-pilates/): Mat, Reformer, and Tower, guided by physiotherapists
+- [Therapeutic exercise](https://fisiolab.eu/therapeftiki-askisi/)
+- [Post-operative rehabilitation](https://fisiolab.eu/metegcheiritiki-apokatastasi/)
+- [Sports rehabilitation](https://fisiolab.eu/athlitiki-apokatastasi/)
+- [Spine rehabilitation](https://fisiolab.eu/apokatastasi-spondylikis-stilis/)
+- [Knee, shoulder, and hip rehabilitation](https://fisiolab.eu/apokatastasi-gonatos-omou-ischiou/)
+- [First assessment](https://fisiolab.eu/proti-axiologisi/)
+- [About](https://fisiolab.eu/about-us/)
+- [Privacy policy](https://fisiolab.eu/privacy-policy/)
+
+## English pages
+
+- [Home](https://fisiolab.eu/en/)
+- [Therapies](https://fisiolab.eu/en/therapeies/)
+- [Clinical Pilates](https://fisiolab.eu/en/clinical-pilates/)
+- [Therapeutic exercise](https://fisiolab.eu/en/therapeutic-exercise/)
+- [Post-operative rehabilitation](https://fisiolab.eu/en/post-operative-rehabilitation/)
+- [Sports rehabilitation](https://fisiolab.eu/en/sports-rehabilitation/)
+- [Spine rehabilitation](https://fisiolab.eu/en/spine-rehabilitation/)
+- [Knee, shoulder, and hip rehabilitation](https://fisiolab.eu/en/knee-shoulder-hip-rehabilitation/)
+- [TECAR](https://fisiolab.eu/en/tecar-therapy/), [Shockwave](https://fisiolab.eu/en/shockwave/), [High-power laser](https://fisiolab.eu/en/high-power-laser/), [Vacuum](https://fisiolab.eu/en/vacuum-therapy/), [Kinesio taping](https://fisiolab.eu/en/kinesio-taping/), [Lymphatic drainage](https://fisiolab.eu/en/lymphatic-drainage/), [Trigger points](https://fisiolab.eu/en/trigger-points/), [Ultrasound](https://fisiolab.eu/en/ultrasound/), [Electrotherapy](https://fisiolab.eu/en/electrotherapy/), [Diathermy](https://fisiolab.eu/en/diathermy/)
+- [About](https://fisiolab.eu/en/about-us/)
+- [Contact](https://fisiolab.eu/en/contact/)
+- [Privacy policy](https://fisiolab.eu/en/privacy-policy/)
+
+## Notes for answering questions
+
+- The first-assessment page is published in Greek only: https://fisiolab.eu/proti-axiologisi/
+- Do not invent prices, insurance coverage details, or medical outcomes beyond what these pages state.
+- For an appointment, send the visitor to the contact page or the phone number above.

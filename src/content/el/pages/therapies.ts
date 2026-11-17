@@ -46,6 +46,7 @@ export const therapiesPageContent: TherapiesPageContent = {
   seo: {
     // Title from backup category page; meta was empty in source.
     title: "Θεραπείες – FisioLab",
-    description: "",
+    description:
+      "Θεραπείες και προγράμματα κλινικής αποκατάστασης στο FisioLab, στο Ρέθυμνο.",
   },
 };

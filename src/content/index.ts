@@ -73,6 +73,11 @@ import { therapy as enVacuum } from "@/content/en/therapies/vacuum-therapy";
 
 import { rehabProgram as elClinicalPilates } from "@/content/el/rehab/clinical-pilates";
 import { rehabProgram as enClinicalPilates } from "@/content/en/rehab/clinical-pilates";
+import { rehabProgram as enTherapeftikiAskisi } from "@/content/en/rehab/therapeftiki-askisi";
+import { rehabProgram as enMetegcheiritiki } from "@/content/en/rehab/metegcheiritiki-apokatastasi";
+import { rehabProgram as enAthlitiki } from "@/content/en/rehab/athlitiki-apokatastasi";
+import { rehabProgram as enSpine } from "@/content/en/rehab/apokatastasi-spondylikis-stilis";
+import { rehabProgram as enJoints } from "@/content/en/rehab/apokatastasi-gonatos-omou-ischiou";
 import { rehabProgram as elTherapeftikiAskisi } from "@/content/el/rehab/therapeftiki-askisi";
 import { rehabProgram as elMetegcheiritiki } from "@/content/el/rehab/metegcheiritiki-apokatastasi";
 import { rehabProgram as elAthlitiki } from "@/content/el/rehab/athlitiki-apokatastasi";
@@ -116,11 +121,11 @@ const elRehabs: Record<RehabSlug, RehabProgram | null> = {
 
 const enRehabs: Record<RehabSlug, RehabProgram | null> = {
   "clinical-pilates": enClinicalPilates,
-  "therapeftiki-askisi": null,
-  "metegcheiritiki-apokatastasi": null,
-  "athlitiki-apokatastasi": null,
-  "apokatastasi-spondylikis-stilis": null,
-  "apokatastasi-gonatos-omou-ischiou": null,
+  "therapeftiki-askisi": enTherapeftikiAskisi,
+  "metegcheiritiki-apokatastasi": enMetegcheiritiki,
+  "athlitiki-apokatastasi": enAthlitiki,
+  "apokatastasi-spondylikis-stilis": enSpine,
+  "apokatastasi-gonatos-omou-ischiou": enJoints,
 };
 
 function isTherapySlug(slug: string): slug is TherapySlug {

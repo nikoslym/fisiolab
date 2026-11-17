@@ -23,6 +23,7 @@ export const contactContent: ContactContent = {
   seo: {
     // Title from sitemap spreadsheet; no approved meta description yet.
     title: "Επικοινωνία / Ραντεβού | FisioLab",
-    description: "",
+    description:
+      "Επικοινωνία και ραντεβού στο FisioLab. Χ. Δασκαλάκη 5, Ρέθυμνο, 74132. Τηλέφωνο 28310 25854.",
   },
 };

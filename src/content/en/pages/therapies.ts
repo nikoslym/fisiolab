@@ -1,9 +1,27 @@
-import type { TherapiesPageContent } from "@/content/types";
+import type { TherapiesPageContent, ServiceCard } from "@/content/types";
 import { serviceCards } from "@/content/en/cards";
 
-/**
- * English Therapies index — existing machine therapies only (Decision 6).
- */
+const therapyHrefs = new Set([
+  "/tecar-therapy",
+  "/shockwave",
+  "/high-power-laser",
+  "/kinesio-taping",
+  "/lymphatic-drainage",
+  "/trigger-points",
+  "/ultrasound",
+  "/electrotherapy",
+  "/diathermy",
+  "/vacuum-therapy",
+]);
+
+const therapies: ServiceCard[] = serviceCards.filter((card) =>
+  therapyHrefs.has(card.cta.href),
+);
+
+const rehabPrograms: ServiceCard[] = serviceCards.filter(
+  (card) => !therapyHrefs.has(card.cta.href),
+);
+
 export const therapiesPageContent: TherapiesPageContent = {
   hero: {
     heading: "Therapies",
@@ -17,10 +35,12 @@ export const therapiesPageContent: TherapiesPageContent = {
     },
   ],
   therapiesHeading: "Therapies",
-  therapies: serviceCards,
-  rehabPrograms: [],
+  therapies,
+  rehabProgramsHeading: "Clinical rehabilitation",
+  rehabPrograms,
   seo: {
     title: "Therapies – FisioLab",
-    description: "",
+    description:
+      "Physiotherapy treatments and clinical rehabilitation programs at FisioLab in Rethymno.",
   },
 };

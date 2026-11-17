@@ -5,6 +5,8 @@ import { resolveCtaHref } from "@/lib/cta/resolveCtaHref";
 import { Button } from "@/components/ui/button";
 import { Container, Section } from "@/components/layout/Container";
 import { FAQ } from "@/components/blocks/FAQ";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { faqJsonLd } from "@/lib/seo/jsonld";
 import { Hero } from "@/components/blocks/Hero";
 import { ImageSlideshow } from "@/components/blocks/ImageSlideshow";
 import { RichTextRenderer } from "@/components/blocks/RichTextRenderer";
@@ -69,6 +71,7 @@ export function RehabPageTemplate({
         <Section className="bg-muted">
           <Container>
             <FAQ items={content.faq} />
+            <JsonLd data={faqJsonLd(content.faq)} />
           </Container>
         </Section>
       )}

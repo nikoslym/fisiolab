@@ -14,6 +14,12 @@ export const uiCopy: Record<
     openingHours: string;
     contact: string;
     eopyy: string;
+    skipToContent: string;
+    notFoundTitle: string;
+    notFoundHeading: string;
+    notFoundBody: string;
+    notFoundHome: string;
+    notFoundContact: string;
   }
 > = {
   el: {
@@ -24,6 +30,13 @@ export const uiCopy: Record<
     openingHours: "Ωράριο",
     contact: "Επικοινωνία",
     eopyy: "Συμβεβλημένο με ΕΟΠΥΥ",
+    skipToContent: "Μετάβαση στο περιεχόμενο",
+    notFoundTitle: "Η σελίδα δεν βρέθηκε | FisioLab",
+    notFoundHeading: "Η σελίδα δεν βρέθηκε",
+    notFoundBody:
+      "Η διεύθυνση που ανοίξατε δεν υπάρχει ή έχει αλλάξει. Επιστρέψτε στην αρχική ή επικοινωνήστε με το κέντρο.",
+    notFoundHome: "Αρχική",
+    notFoundContact: "Επικοινωνία",
   },
   en: {
     menu: "Menu",
@@ -33,8 +46,20 @@ export const uiCopy: Record<
     openingHours: "Opening hours",
     contact: "Contact",
     eopyy: "Contracted with EOPYY",
+    skipToContent: "Skip to content",
+    notFoundTitle: "Page not found | FisioLab",
+    notFoundHeading: "Page not found",
+    notFoundBody:
+      "This address does not exist or has changed. Return to the homepage or contact the clinic.",
+    notFoundHome: "Home",
+    notFoundContact: "Contact",
   },
 };
+
+/** Greek is the default. English is only the /en path. */
+export function localeFromPathname(pathname: string): Locale {
+  return pathname === "/en" || pathname.startsWith("/en/") ? "en" : "el";
+}
 
 /**
  * Builds an internal href for a given locale.

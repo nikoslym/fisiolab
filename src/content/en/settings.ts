@@ -56,9 +56,14 @@ export const trustBar: TrustBar = {
   items: ["130+ Google Reviews", "Contracted with EOPYY"],
 };
 
-/** EN review bullets not provided in briefs — empty until approved copy. */
+/** English rendering of the Greek homepage review summary. */
 export const reviewSummary: ReviewSummary = {
-  bullets: [],
+  bullets: [
+    "A personal approach and a thorough assessment",
+    "Prompt relief and guidance with a clear treatment plan",
+    "A modern, clean, and carefully kept space",
+    "Professionalism, consistency, and human communication",
+  ],
   externalLink: {
     label: "See reviews on Google",
     // Google Search reviews panel (not the business profile share link).

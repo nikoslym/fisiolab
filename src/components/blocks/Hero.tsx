@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { PageHero } from "@/content/types";
 import { Button } from "@/components/ui/button";
@@ -24,8 +25,8 @@ export function Hero({
   const isBackground = mode === "background" && hasImage;
   const isPortraitImage = Boolean(
     content.image?.width &&
-      content.image?.height &&
-      content.image.height > content.image.width,
+    content.image?.height &&
+    content.image.height > content.image.width,
   );
 
   return (
@@ -33,9 +34,7 @@ export function Hero({
       className={cn(
         "overflow-hidden",
         // Tighter page-hero spacing so stacked sections don't double up.
-        hasImage
-          ? "py-10 sm:py-12 lg:py-14"
-          : "py-8 sm:py-10 lg:py-12",
+        hasImage ? "py-10 sm:py-12 lg:py-14" : "py-8 sm:py-10 lg:py-12",
         isBackground
           ? "relative"
           : "from-brand-aqua-soft/80 bg-linear-to-br from-0% via-white to-white",
@@ -44,21 +43,22 @@ export function Hero({
     >
       {isBackground && content.image && (
         <>
-          <div
-            aria-hidden="true"
-            className="absolute inset-0 bg-no-repeat"
-            style={{
-              backgroundImage: `url(${content.image.src})`,
-              backgroundSize: "cover",
-              backgroundPosition: `${(content.image.focalPoint?.x ?? 0.5) * 100}% ${
-                (content.image.focalPoint?.y ?? 0.25) * 100
-              }%`,
-              transform: `scale(${content.image.coverScale ?? 1.05})`,
-              transformOrigin: `${(content.image.focalPoint?.x ?? 0.5) * 100}% ${
-                (content.image.focalPoint?.y ?? 0.25) * 100
-              }%`,
-            }}
-          />
+          <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
+            <Image
+              src={content.image.src}
+              alt=""
+              fill
+              priority
+              sizes="100vw"
+              quality={90}
+              className="object-cover"
+              style={{
+                objectPosition: `${(content.image.focalPoint?.x ?? 0.5) * 100}% ${(content.image.focalPoint?.y ?? 0.25) * 100}%`,
+                transform: `scale(${content.image.coverScale ?? 1.05})`,
+                transformOrigin: `${(content.image.focalPoint?.x ?? 0.5) * 100}% ${(content.image.focalPoint?.y ?? 0.25) * 100}%`,
+              }}
+            />
+          </div>
           <div className="absolute inset-0 bg-slate-950/45" />
         </>
       )}

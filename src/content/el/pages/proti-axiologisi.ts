@@ -47,6 +47,7 @@ export const initialAssessmentContent: InitialAssessmentContent = {
   seo: {
     // Title from sitemap spreadsheet; no approved meta description in briefs.
     title: "Πρώτη Αξιολόγηση | FisioLab",
-    description: "",
+    description:
+      "Η πρώτη αξιολόγηση στο FisioLab περιλαμβάνει ιστορικό, κλινικό έλεγχο και πρόταση εξατομικευμένου πλάνου αποκατάστασης.",
   },
 };

@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { LocaleLayout } from "@/components/layout/LocaleLayout";
+import { getSiteUrl } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "FisioLab",
+  metadataBase: new URL(getSiteUrl()),
+  title: {
+    default: "FisioLab",
+    template: "%s",
+  },
+  applicationName: "FisioLab",
 };
 
 // English root layout - served under /en.

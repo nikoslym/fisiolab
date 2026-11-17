@@ -17,6 +17,7 @@ export const contactContent: ContactContent = {
   },
   seo: {
     title: "Contact / Appointment – FisioLab",
-    description: "",
+    description:
+      "Contact FisioLab to book an appointment. Ch. Daskalaki 5, Rethymno, 74132. Phone +30 28310 25854.",
   },
 };

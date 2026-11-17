@@ -1,16 +1,11 @@
 import type { AboutContent } from "@/content/types";
 
-/**
- * Existing English page preserved from the local .wpress backup. The source
- * page contains Greek body paragraphs and an English professional profile;
- * Decision 6 forbids translating or rewriting this existing page at launch.
- */
 export const aboutContent: AboutContent = {
   hero: {
-    heading: "Σχετικά με εμάς",
+    heading: "About us",
     image: {
       src: "/images/about/about-hero.webp",
-      alt: "Σχετικά με εμάς",
+      alt: "About FisioLab",
       width: 1333,
       height: 2000,
       focalPoint: { x: 0.5, y: 0.4 },
@@ -20,15 +15,15 @@ export const aboutContent: AboutContent = {
   body: [
     {
       type: "paragraph",
-      text: "Στο κέντρο του Ρεθύμνου, με άνετους χώρους σεβόμενοι την ιδιωτικότητα των ασθενών, για εξατομικευμένα προγράμματα θεραπείας και αποκατάστασης μυϊκών, νευρολογικών και άλλων παθήσεων που χρήζουν φυσιοθεραπευτικής προσέγγισης.",
+      text: "In the center of Rethymno, with comfortable spaces that respect each patient's privacy, for personalized treatment and rehabilitation programs for muscular, neurological, and other conditions that need a physiotherapy approach.",
     },
     {
       type: "paragraph",
-      text: "Ο υπερσύγχρονος εξοπλισμός, η πολυετής εμπειρία και η συνεχιζόμενη μετεκπαίδευση μας, εγγυώνται σίγουρο αποτέλεσμα.",
+      text: "Modern equipment, long experience, and ongoing scientific development allow us to design personalized treatment plans adapted to the needs of each case.",
     },
     {
       type: "paragraph",
-      text: "Το FisioLab λειτουργεί από Δευτέρα έως Πέμπτη με συνεχές ωράριο και Παρασκευή πρωί, με ευελιξία στα ραντεβού.",
+      text: "FisioLab is open Monday to Thursday with continuous hours and on Friday morning, with flexibility in appointments.",
     },
     {
       type: "quote",
@@ -38,9 +33,15 @@ export const aboutContent: AboutContent = {
         "Member of the Panhellenic Association of Physiotherapists",
       ],
     },
+    { type: "heading", level: 2, text: "Our philosophy" },
+    {
+      type: "paragraph",
+      text: "Our approach is based on assessment, precision, and consistency. Each case is treated individually, with the aim of reducing pain, improving function, and supporting a safe return to daily life.",
+    },
   ],
   seo: {
     title: "About us – FisioLab",
-    description: "",
+    description:
+      "A physiotherapy center in the center of Rethymno, with personalized treatment and rehabilitation programs. Scientific Director: Spanoudakis N. Nikos.",
   },
 };

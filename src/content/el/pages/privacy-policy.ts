@@ -257,8 +257,8 @@ export const privacyContent: PrivacyContent = {
     },
   ],
   seo: {
-    title: "Privacy Policy - FisioLab",
+    title: "Πολιτική απορρήτου | FisioLab",
     description:
-      "Πολιτική απορρήτου & συμμόρφωση GDPR ΓΕΝΙΚΑ Η χρήση των ηλεκτρονικών σελίδων και υπηρεσιών πού παρέχονται στον επισκέπτη/χρήστη, από τον ιστότοπο https://fisiol",
+      "Πολιτική απορρήτου και προστασίας προσωπικών δεδομένων του FisioLab.",
   },
 };
